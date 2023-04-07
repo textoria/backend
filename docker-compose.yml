@@ -18,7 +18,7 @@ services:
 
   front:
       container_name: textoria-front
-      build: https://${GIT_AUTH_TOKEN}@github.com/textoria/frontend.git
+      build: https://github.com/textoria/frontend.git
       environment:
         - BACKEND_URL=http://back:8000
       ports:

@@ -2,6 +2,7 @@ import json
 import asyncio
 from typing import Dict, Any
 from decouple import config
+from fastapi import HTTPException
 
 import orjson as json
 from fastapi import FastAPI
@@ -16,6 +17,24 @@ KeyDBClient.init_session(
 )
 
 app = FastAPI()
+
+
+async def update_key(key: str, new_value: Any) -> Dict[str, Any]:
+    keys = json.loads(await KeyDBClient.async_get('cache'))
+    if key not in keys:
+        raise KeyError(f"Key '{key}' not found.")
+    keys[key] = new_value
+    await KeyDBClient.async_set('cache', json.dumps(keys))
+    return {key: new_value}
+
+
+@app.put("/update_key")
+async def update_key_route(key: str, new_value: str):
+    try:
+        updated_key = await update_key(key, new_value)
+        return updated_key
+    except KeyError as e:
+        raise HTTPException(status_code=404, detail=str(e))
 
 
 async def load_json_data(filename: str) -> str:
