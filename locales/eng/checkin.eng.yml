@@ -1,0 +1,66 @@
+ai_wisdom_final_status_graphic: "<b> I rewrite everything again ...\n \n\U0001F3F3\
+  ️ — — — — \U0001F916 \U0001F3C1 </b>"
+ai_wisdom_form: "<b> Hold the advice from AI: </b>\n \n<seode> {} </sode>\n \n<b>\
+  \ Do you like advice? </b>"
+ai_wisdom_fourth_status_graphic: "<b> I correct spelling errors ...\n \n\U0001F3F3\
+  ️ — — — \U0001F916 — \U0001F3C1 </b>"
+ai_wisdom_generation_failed: "<b> UPS, something went wrong ... </b>\n \nI did not\
+  \ manage to generate advice — we will definitely fix it soon!"
+ai_wisdom_initial_status_graphic: "<b> I analyze your emotions ...\n \n\U0001F3F3\
+  ️\U0001F916 — — — — — \U0001F3C1 </b>"
+ai_wisdom_saved_alert_text: The Council is saved in the section 📆 Chekapas
+ai_wisdom_second_status_graphic: "<b> I turn on the module of empathy ...\n \n\U0001F3F3\
+  ️ — \U0001F916 — — — — \U0001F3C1 </b>"
+ai_wisdom_third_status_graphic: "<b> I am looking for suitable words ...\n \n\U0001F3F3\
+  ️ — — \U0001F916 — — \U0001F3C1 </b>"
+checkin_average_note_text: '<b>At least a day and not really, let''s write down,
+
+  what happened today 🤗 </b>'
+checkin_awful_note_text: Tell me what happened today and why it bothers you.
+checkin_bad_note_text: I sympathize with you 😔 tell me what happened?
+checkin_create_note_text: '<b> Tell me how the day went? 😊 </b>
+
+
+  You can write in more detail to then re -read and remember the details 😉'
+checkin_emotions_bottom_text: What emotions were the most?
+checkin_finished_text: "Saved your check in <b> \U0001F4DC History </b>\n \nHow do\
+  \ you want to thank yourself today?"
+checkin_good_note_text: '<b> Tell me how the day went? 😊 </b>
+
+
+  You can write in more detail to then re -read and remember the details 😉'
+checkin_header_text: <b>Checkup</b>
+checkin_note_bottom_text: 'Tell me what''s in your soul. I will carefully preserve
+  everything in <b> 📜 History </b>
+
+
+  <b> 🎤 Now you can send a voice message and I will automatically convert it to a
+  text note! </b>'
+checkin_perfect_note_text: 'Class! I am very happy for you!
+
+
+  Let''s remember this day 😌'
+checkin_start_text: '<b> Stop for a second and remember your day </b>
+
+
+  How did he go?'
+reminder_setting_checkup_step_text: '<b> Let''s check the setting of reminders of
+  the check </b>
+
+
+  Reminders come daily
+
+
+  🔔 Status: {}
+
+  🕰 Time: {}
+
+  🌐 watch belt: {}, {}
+
+
+  OK?'
+status_off: turned off
+status_on: included
+wisdom_saved_text: Saved wisdom to 📜 History
+wisdom_step_form: "<b> Hold the wisdom of the day: </b>\n \n<seode> {} </sode>\n \n\
+  <b> Do you like the wisdom of the day? </b>"

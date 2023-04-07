@@ -1,0 +1,17 @@
+open_feature_speech_to_text: "<b> \U0001F399 Voice notes </b>\n \nSend me voice notes\
+  \ and circles, and I will recognize your voice and keep a note in the diary.\n \n\
+  \U0001F512 The function is unlimited only in <b> the extended version of the bot\
+  \ </b>\n\n"
+price_feedback_alert_text: Thanks for your feedback ❤️
+price_feedback_question: '{"male": "<b> It is a pity that you are leaving ... </b>\n\n
+  How much would you be ready to pay for <b> 💎 an extended version? </b>", "female":
+  "<b> It is a pity that you are leaving ...</b>\nHow much would you be ready to pay
+  for <b> 💎 an extended version?</b>"}'
+subscription_menu_text: "<b> Open new Bota capabilities with a subscription </b>\n\
+  \ \nBy clicking on the \"Pay\" button, you agree with <a href=\"https://monday4.me/data-protection\"\
+  > policies of confidentiality </a> and <a href = \"https://www.monday4.me/user -Agreement\
+  \ \"> the rules for using the service </a>.\n\n<a href=\"https://monday4.me/subscript\"\
+  > learn more </a>"
+successful_sub_purchase_text: "<b> Payment was successful \U0001F60E </b>\n \nNow\
+  \ the functions of the bot are activated\n \nNext payment: <b> {} </b>\nYou can\
+  \ manage the subscription in <b> \U0001F603 my profile </b>"

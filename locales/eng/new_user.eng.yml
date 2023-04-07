@@ -1,0 +1,104 @@
+age_choice_text: '<b> How old are you? </b>
+
+
+  Your age allows us to better select people who will answer your questions in <b>
+  👋 advice </b>.'
+continue_onboarding_first_text: '<b> It seems you stopped halfway ... </b>
+
+
+  Do you want to continue?'
+continue_onboarding_pop_up: Excellent! Let's take the first steps 🤝
+continue_onboarding_second_text: '<b> tuk-tuk, will we continue acquaintance? </b>
+
+
+  During this time, I became a little better 😉'
+custom_sparks_product_onboarding_text: "And in Monday4ME there is a <S> program of\
+  \ loyalty </S> the program of self -care is sparks.\n \nYou can accumulate points\
+  \ by taking care of yourself, and then pay them up to 50% of the cost of subscription\
+  \ to a psychologist.\n \nFor example, every 5 daily <b> checks </b> in a row give\
+  \ you +5 \U0001F4A5\n \nA complete list of tasks for which sparks are accrued, you\
+  \ will find in the section <b> \U0001F604 my profile </b> -> <b> \U0001F3E6 finances\
+  \ </b>"
+gender_choice_text: <b> What is your gender?</b>
+notification_time_text: 'Let''s configure the time <b> 😊 Chekapa </b> — notes about
+  the mood — to make it easier to keep <b> 📅 Diary </b>
+
+
+  I promise to send no more than one notification per day 🤞'
+onboarding_second_step_text: '📑 A <b>checkup</b> is a mini-survey that helps you <b>evaluate</b>
+  the level of anxiety and stress and <b>catch</b> the connection between negative
+  emotions and their causes
+
+
+  🧠 <b>Why are checkups helpful?</b> If you checkup regularly and systematically,
+  you <b>notice</b> emotinal challenges <b>on time</b> and <b>get insights</b> on
+  their causes with analytics'
+product_onboarding_checkup_text: 'Accumulating <b> checks </b>, you can consider the
+  mood changes on the graphs
+
+
+  If there is a pattern in the mood, I will try to tell you it
+
+
+  For convenience in <b> check </b> you can add your causes of emotions and additional
+  questions'
+product_onboarding_diary_text: 'The path to happiness begins with systemic observation
+  of the emotional state
+
+
+  To do this, I have <b> 📆 diary </b> that will help you regularly record emotions
+  and note what they are connected with
+
+
+  One recording of emotions is called <b> check </b>'
+product_onboarding_therapists_chat_text: 'A unique feature of <b> checks </b> is that
+  they greatly simplify communication with a psychologist
+
+
+  a) Data about <b> checks </b> can be shared with a psychologist, plunging it into
+  context before the start of the first session
+
+
+  b) During your communication, the psychologist receives notifications about your
+  <b> checks </b> to keep his hand on the pulse'
+product_onboarding_therapists_text: 'If you want to discuss your condition with someone,
+  I will help you find an interlocutor
+
+
+  a) I have <b> 👋 tips </b> — an anonymous exchange system of questions between users
+
+
+  b) there are still experienced <b> 👩🏻‍🦳 psychologists </b>, with each of which you
+  can contact directly through online chat'
+second_onboarding_step_text: '<b>Why not discuss your emotions?</b>
+
+
+  Inside there is a whole social platform where you can:
+
+
+  - Anonymously ask for <b>👋 Advice</b> from the community
+
+
+  - Limitlessly ask questions from <b>universal consciousness</b>: neural network
+
+
+  - Find a <b>👩🏻‍🦳 Psychologist</b> to talk online by chat or video'
+third_onboarding_step_text: "And more... for regular checkups you get <b>sparks \U0001F4A5\
+  </b>\n \nSparks are like bonus points — spend them on sessions with psychologists:\
+  \ <b> 1\U0001F4A5 = 2 cents</b>\n\nAnd for <b>the first checkup</b> you instantly\
+  \ get <b>20 \U0001F4A5</b>"
+timezone_recognized: "<b> Your time zone: {}, and local time should be {}. </b>\n\
+  \ \nIn <b> \U0001F603 your profile </b> you can change it if I made a mistake \U0001F643"
+v1_remind_onboarding_first_text: '<b> We are updated! </b>
+
+
+  Do you want to see what''s inside?'
+welcome_text: '<b>Hello{}</b>
+
+
+  🙋‍♂️ I will help you track your mood and provide psychological support when you
+  need it
+
+
+  🤳 What we gonna do: we will regularly pass <b>emotion checkups</b> — observing and
+  recording our emotions in the easy form of survey'

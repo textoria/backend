@@ -1,0 +1,6 @@
+arrow_time_format: ⌚️ <b>DD MMMM YYYY HH:mm</b>
+babel_date_format: dd MM yyyy
+babel_date_time_format: ⌚️ <b>dd MMMM yyyy HH:mm</b>
+babel_month_day_format: dd MMMM
+date_and_time_format: dd MMMM yyyy HH:mm
+locale_format: en_US

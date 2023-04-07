@@ -1,0 +1,209 @@
+ai_advice_locked_info_text: '💬 <b> Tips from Chatgpt </b>
+
+
+  Get advice and support from the all -knowing neural network, around the clock and
+  without restrictions
+
+
+  🔒 The function is available only in
+
+  <b> The extended version of the bot </b>
+
+
+  '
+bad_product_rating_text: "<b> Ouuke ... </b>\n \nTell me in more detail what you don't\
+  \ like. What can become better? What function do you miss?"
+checkup_notification_settings_menu_text: '<b> Here you can change the time of reminders
+  and turn off them </b>
+
+
+  Reminders come daily'
+checkup_questions_limit_reached_alert_text: You can’t have more than 9 questions in
+  the check ... Disconnect a certain question to turn on this 😉
+checkup_settings_menu_header: <b> ⚙️ Campaopa settings </b>
+checkup_settings_menu_text: Here you can do <b> check </b> completely personal
+checkup_summary_form: "<b> ✍️ Your check: </b>\n \n<b> \U0001F31E Day: </b> {}\n<b>\
+  \ \U0001F60A Emotions: </b> {}\n<b> \U0001F914 Reasons: </b> {}\n<b> \U0001F4DD\
+  \ with a note: </b> {}"
+checkup_text: '📔 <b> check </b>
+
+  {} due to {}
+
+  {} causes {}'
+confirm_create_custom_emotion_text: 'You want to create an emotion
+
+
+  Name: {}
+
+
+  Type: {}'
+create_custom_emotion_text: "<b> Write and send your emotion, and I will save it for\
+  \ the future </b>\n \n\U0001F4A1 Emotion looks better when there is emoji in the\
+  \ name\n \n⚠️ Try to meet 15 characters so that the name gets into the button"
+create_emotion_exists_text: '<b> Such an emotion already exists! </b>
+
+
+  Come up with something else'
+create_note_text: "Hi\U0001F60A\n \nTell me how your day has passed or what worries\
+  \ you\U0001F641"
+custom_emotions_menu_text: Choose an emotion to configure it, or <b> ➕ ONE YOUR ENOW
+  </b>
+custom_questions_limit_exceeded: ❗️ You can add only 10 custom questions
+custom_questions_locked_info_text: "<b> ❓ My questions </b>\n \nWith this function,\
+  \ you can track the topics important for you personally. Create a list of questions\
+  \ for every day and follow the dynamics of answers.\n \n\U0001F512 This function\
+  \ is not available to you so far\n \n\U0001F511 To activate it, drawing up a paid\
+  \ nerd subscription. Functionality will become available immediately after payment"
+custom_questions_upsell_text: <b> Do you want to add to the check your own questions
+  to monitor the answers by the graphs? </b>
+custom_reasons_upsell_text: <b> Do you want to add your own causes of mood to the
+  check? </b>
+default_checkup_text: '{"male": "<b> today {} </b> \n\n you have not yet passed <b>
+  check </b> ... \n", "female": "<b> today {} </b> \n\n You have not yet passed <b>checkup</b>
+  ... \n"}'
+default_note_text: 'There were no records in the diary this week
+
+  '
+default_question_disabled_alert_text: I deleted this question from your check 🚮
+default_question_enabled_alert_text: Now in your check there will be a question on
+  this topic 😉
+default_questions_menu_text: Choose a sphere that you want to track or mood your questions
+  in <b> ❓ my questions </b>
+delete_custom_emotion_text: The emotion is removed!
+delete_note_text: "<b> Do you really want to delete this entry? </b>\n \nThink twice,\
+  \ even we will not be able to restore it\U0001F641"
+diary_header_text: <b> Diary </b>
+edit_custom_emotion_text: 'Emotion is chosen:
+
+
+  <b> {} </b>'
+edit_note_text: "<b> To edit the message, click on ^ this is a message and edit it\
+  \ as usual. </b>\n \nThis can only be done within two days, alas, these are the\
+  \ restrictions of telegram \U0001F625"
+emotion_max_len_limit_exceeded: Too many characters, write again
+emotion_move_text: Choose a new place for emotion
+emotion_negative_text: 😔 negative
+emotion_positive_text: 😌 positive
+failed_voice_note_recognition_text: "<b> Unfortunately, I could not recognize the\
+  \ speech in your audio \U0001F614 </b>\n \nTry to record the audio again or just\
+  \ send me your note with text!"
+fallback_select_sources_text: 'Choose the reasons for your mood:'
+fast_checkup_disabled_alert_text: A quick check is turned off!
+fast_checkup_enabled_alert_text: 'A quick check is included!
+
+
+  In a quick check, you spend less time, but you can choose only one emotion, the
+  reason and you cannot add a note.'
+fast_checkup_locked_info_text: "<b> Quick checkup </b>\n \nThere will be no note and\
+  \ wisdom in a quick check mode, and questions will turn into polls — everything\
+  \ so that the check takes away no more than 5 seconds\n \n\U0001F512 This function\
+  \ is not available to you so far\n \n\U0001F511 To activate it, drawing up a paid\
+  \ nerd subscription. Functionality will become available immediately after payment"
+fast_checkup_upsell_text: <b> Do you want to go through a check faster? </b>
+feedback_header_text: <b> Feedback </b>
+female_friend_passed_checkup_noti_text: <b> {} The check has just passed! </b>
+good_product_rating_text: "<b> Very nice) </b>\n \nTell me in more detail what you\
+  \ like. Maybe something can be even better?"
+locked_emotion_feature_text: "<b> My emotions </b>\n \nAdd your emotions, track the\
+  \ statistics on them and identify their causes.\n \n\U0001F512 The function is unlimited\
+  \ only in <b> the extended version of the bot </b>"
+male_friend_passed_checkup_noti_text: <b> {} The check has just passed! </b>
+max_limit_emotions_text: ❗️ You already have the maximum number of emotions!
+modify_mood_source: '{"female": "<b> 📌 you chose </b> <i> {} </i>", "male": "<b> 📌
+  you chose </b> <i> {} </i>"}'
+mood_source_already_present_text: ❗️ <b> You already have such a reason. </b> try
+  again!
+mood_source_no_emoji: <b> ❗️ Please send the text of your reason along with <u> emoji.
+  </u> </b> try again!
+mood_source_no_text: <b> ❗️ Your emoji also needs <u> text </u> </b> try again!
+mood_source_too_long_text: ❗️ <b> Your text is too long. </b> try again!
+mood_sources_locked_info_text: "<b> ➕ Add the cause </b>\n \nWith this function, you\
+  \ can create personal causes of mood and use them in <b> check </b>\n \n\U0001F512\
+  \ This function is not available to you so far\n \n\U0001F511 To activate it, drawing\
+  \ up a paid nerd subscription. Functionality will become available immediately after\
+  \ payment"
+mood_sources_settings_menu_text: Click on the reason to configure it, or create a
+  new
+move_custom_emotion_unsub_alert: ❗️ You can not move custom emotions without subscription
+move_source_text: Choose a place for which you want to put the reason {}
+new_emotion_text: New emotion
+new_note_message_placeholder: How are you feeling?
+new_source_text: '<b> Write and send your reason, and I will save it for the future
+  </b>
+
+
+  💡 The reason looks better when there is emoji in the name
+
+
+  ⚠️ Try to meet 20 characters so that the name climbs the button'
+no_report_this_week: You did not have checks with {} by {}
+no_text: Not
+note_from_noti_text: <b> Tell me how you feel, and I will carefully save your entry
+  in 📆 Diary </b>
+note_header_text: <b> note </b>
+note_saved_alert_text: 📜 The note is saved!
+note_text: '📓 <b> recording </b>
+
+  {}'
+processing_voice_text: '<b> I recognize the text from audio ... </b>
+
+
+  This can take up to 15 seconds.'
+product_feedback_rating_text: "<b> Mimnutka feedback </b>\n \nEstimates from 1 to\
+  \ 5, how do you need a bot?"
+product_feedback_received_text: "<b> Thank you for your opinion ❤️ </b>\n \nIt is\
+  \ very important for me to hear you\n \nIf you want to urgently report something,\
+  \ write @monday4me_support"
+product_rating_thanks_alert_text: Thank you for rating!
+rename_custom_emotion_text: 'Write me the text of the emotion that you want to change:'
+replace_mood_source_locked_position: '❗️ At this place there is a reason that cannot
+  be moved!
+
+
+  To be able to move user reasons, you must go to the paid version of the bot.'
+setup_checkup_questions_from_onboarding_text: "<b> Choose the sphere of life that\
+  \ you want to track </b>\n \nSelected topics are noted \U0001F7E2\n \nThen click\
+  \ <b> ➡️ Start a check </b>"
+source_deleted_alert_text: ♻️ The reason {} is removed!
+source_moved_alert_text: ✅ {} Now it will be displayed in a new place!
+source_removal_confirmation_text: '{"male": "<b> you are sure you want to remove the
+  cause </b> <i> {} </i>?", "female": "<b> you are sure you want to remove the cause
+  </b> <i> {} </i>? "}'
+sources_locked_alert_text: Personal reasons for mood are available only to users 💎
+  extended version of the bot
+support_onboard: Can I ask you a couple of short questions to become more convenient
+  and useful? I will write from the support account
+support_onboard_alert: You are the best! ♥ ️ I will write soon
+timezone_menu_text: "<b> The time zone allows me to send reminders of the check </b>\
+  \ in time\n \n<b> Your time zone: </b> {}\n<b> Your time: </b> {}\n \nTo change\
+  \ your time zone, just send me your geolocation or choose your city on the map and\
+  \ send me an approximate location!"
+too_many_questions: Sorry, but at the same time you can only have 9 questions. Turn
+  off other questions and try again.
+too_many_sources_alert_text: '❗️ There are too many chosen reasons (14/14).
+
+
+  Try to remove one of your reasons.'
+view_weekly_report_text: '<b> Your report for a week is ready! </b>
+
+
+  I carefully preserved all the joys, anxiety and their causes. Study the report and
+  show the psychologist if you work with him now.
+
+
+  You are on the right track!'
+voice_note_recognition_approve_text: "<b> I recognized the following text from your\
+  \ audio: </b>\n \n<i> {} </i>\n \n<b> Save this as a note? </b>"
+weekly_reports_locked_info_text: "<b> \U0001F4CA reports </b>\n \nOn Sundays, you\
+  \ will receive a detailed analysis of the week: how it went, what caused an alarm\
+  \ — to make it easier to reflect it.\n \n\U0001F512 This function is not available\
+  \ to you so far\n \n\U0001F511 To activate it, drawing up a paid nerd subscription.\
+  \ Functionality will become available immediately after payment"
+weekly_reports_upsell_text: <b> Do you want to track statistics of your mood and receive
+  recommendations to feel better? </b>
+wisdom_note_text: '☯️ <b> wisdom of the day for memory </b>
+
+  <i> {} </i>'
+wisdoms_disabled: ⏹ Wisdom of the day disconnected
+wisdoms_enabled: ✅ Now I will show the wisdom of the day
+yes_text: 'Yes'

@@ -1,0 +1,10 @@
+ai_chat_finished_alert_text: It was nice to talk to you!
+ai_chat_first_message_text: Hello! How is your day? How can I help? 😇
+ai_chat_onboarding_text: "<b> \U0001F4AC Correspondence with ChatGPT </b>\n \nHere\
+  \ you can ask any question or share any experiences — the neural network in the\
+  \ chat format will try to help and support you!\n \n<i> When communicating, do not\
+  \ forget that ChatGPT may be mistaken, you should not rely entirely on her advice.\
+  \ </i>"
+ai_chat_timed_out_text: "<b> It seems that our chat ended \U0001F642 </b>\n \nI look\
+  \ forward to our next correspondence!"
+exit_ai_chat_postfix: <i> To complete the chat, send /start. </i>

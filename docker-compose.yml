@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  keydb:
+    image: eqalpha/keydb
+    container_name: textoria-keydb
+    ports:
+      - "6379:6379"
+    command: keydb-server /etc/keydb/keydb.conf --server-threads 4 --requirepass password
+
+  back:
+    container_name: textoria-back
+    environment:
+        - KEYDB_URI=$KEYDB_URI
+    ports:
+      - "8000:8000"
+    build: .
+
+  front:
+      container_name: textoria-front
+      build: https://${GIT_AUTH_TOKEN}@github.com/textoria/frontend.git
+      environment:
+        - BACKEND_URL=http://back:8000
+      ports:
+        - '3000:3000'

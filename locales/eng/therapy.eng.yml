@@ -1,0 +1,185 @@
+bad_external_profile_url_text: "<b> It seems that with this link something is wrong\
+  \ \U0001F914 </b>\n \nCheck that the link begins with <code> http (s): // </code>,\
+  \ does not contain typos and send it again!"
+edit_therapist_external_profile_url_text: "<b> Now the button in your profile leads\
+  \ to the site — </b>\n{}\n \n<b> To update the link to the external profile, just\
+  \ send me a new one! </b>\n \nYou can completely remove the link from your profile,\
+  \ then the button will disappear \U0001FAE2"
+execution_order_created_status_text: ⌛️ Payment is expected
+execution_order_failed_status_text: ⛔️ Payment is canceled
+external_profile_url_removed_alert_text: "Removed the old link!\n \nYou can always\
+  \ add a new one in the profile settings \U0001F609"
+inspect_therapist_offer_text: "<b> This is our contract </b>\n \nIt will always be\
+  \ available here for viewing."
+minimum_working_hours_alert_text: It is necessary to select at least 5 hourly slots
+  in the week
+new_external_profile_url_saved_text: "<b> excellent, now in your profile there will\
+  \ be a button with a link to your profile — </b>\n \n{}\n \nYou can always update\
+  \ or delete the link here in the settings of your profile \U0001F609"
+new_therapist_profile_picture_text: "<b> pretty! \U0001F970 </b>\n \nNow users will\
+  \ see this photo before paying for advice"
+no_profile_pic_settings_text: "<b> Here you can attach a photo to your profile so\
+  \ that users see who will answer their question \U0001F60A </b>\n \nSend me your\
+  \ most favorite photo \U0001F60E"
+no_therapist_external_profile_url_text: "<b> You can add a link to your profile on\
+  \ a third -party site (b17.ru, ..) so that users can get to know you better! </b>\n\
+  \ \nCopy the link and send it to me to add it to your profile \U0001F60A"
+onboarding_check_if_entrepreneur_text: <b> Are you an individual entrepreneur? </b>
+onboarding_fill_address_failed_text: '<b> In this address, something is missing ...
+  </b>
+
+
+  Make sure that there are no typos in it and send it again'
+onboarding_fill_address_text: '<b> Last step! </b>
+
+
+  Send me your registration address — this address will be indicated in our contract
+  with you.'
+onboarding_fill_bank_bic_failed_text: '<b> In my opinion, the bank of the bank looks
+  different ... </b>
+
+
+  Try once more'
+onboarding_fill_bank_bic_text: '<b> I remembered your number! </b>
+
+
+  Now throw me the bik of your bank — this is 9 numbers'
+onboarding_fill_checking_bank_account_failed_text: '<b> Most likely in your message
+  error </b>
+
+
+  Try to copy the number of your current account and send again!'
+onboarding_fill_checking_bank_account_text: '<b> Judging by the bik you are a client
+  {}! </b>
+
+
+  Now throw me your current account, according to which I will make payments. Your
+  current account is 20 digits, it looks somehow like this: <i> 40702810680060657001
+  </i>'
+onboarding_fill_email_failed_text: '<b> It seems that your message is an error </b>
+
+
+  They came my mail again'
+onboarding_fill_email_text: '<b> cool! </b>
+
+
+  Now throw off your email address — I will send checks to it every month.'
+onboarding_fill_name_failed_text: '<b> It seems that your message is a mistake. </b>
+
+
+  Try to send your name again!'
+onboarding_fill_name_text: '<b> What is your name? </b>
+
+
+  Send your name in format <i> Pushkin Alexander Sergeevich </i>'
+onboarding_fill_ogrnip_id_failed_text: '<b> It seems that in your Ogrnip typo </b>
+
+
+  Try again'
+onboarding_fill_ogrnip_id_text: '<b> In this case, send your Ogrnip </b>
+
+
+  This is a unique identifier of an individual entrepreneur, in which only 15 digits'
+onboarding_fill_phone_failed_text: '<b> It seems that this issue is an error ... </b>
+
+
+  Try to send the number again!'
+onboarding_fill_phone_text: "<b> class! I remembered all the data about you — now\
+  \ you need to deal with your banking data. </b>\n \nTo begin with, send your phone\
+  \ number, which is tied to your current account (without it I can not make transfers).\n\
+  \nIf the account number of the current account coincides with the phone number of\
+  \ your Telegram account, then just click on the button below. If another number\
+  \ is tied to your bank account, send it with text in format <i> 79998886655 </i>"
+onboarding_fill_tax_id_failed_text: '<b> I''m sorry, but your TIN looks somehow wrong
+  </b>
+
+
+  Double-check everything and try to send it again'
+onboarding_fill_tax_id_text: '<b> I figured out banking data, only a couple of details
+  remained! </b>
+
+
+  Send your TIN — it is needed to draw up a contract.'
+onboarding_not_passed_text: "<b> Welcome to monday4me! </b>\n\nTo access the psychologist’s\
+  \ interface, you need to tell more about yourself. You can register now, or do it\
+  \ later \U0001F60A\n \n<b> I will need the following data from you: </b>\n\n<b>\
+  \ \U0001F4C7 Your name </b> (for the contract),\n<b> \U0001F4E7 Your email </b>\
+  \ (for monthly extracts by mail)\n<b> \U0001F4CD Your address </b> (for the contract),\n\
+  <b> \U0001F4DE Your phone number </b> (for translations)\n \n<b> \U0001F522 BIK\
+  \ of your bank </b> (for translations),\n<b> \U0001F522 Your races. score </b> (for\
+  \ translations),\n<b> \U0001F522 Your Inn </b> (for the contract),\n<b> \U0001F522\
+  \ Your Ogrnip </b> (if any — for translations)"
+onboarding_review_document_text: Carefully read the document.
+payout_completed_status_text: ✅ Payment is fulfilled
+profile_card_concealed: Your profile is now hidden from users! 🚫
+profile_card_revealed: Your profile is now visible to users! ✅
+therapist_accepted_job_alert_text: "Excellent!\n \nSent payment to your account \U0001F609"
+therapist_address_placeholder: Lesnaya St., 5, apt. 176, Moscow Russia 125075
+therapist_bank_bic_placeholder: 044525974
+therapist_checking_bank_account_placeholder: 4010281 ...
+therapist_custom_profile_text_exists_text: "<b> Now your profile contains the following\
+  \ text: </b>\n \n<i> {} </i>"
+therapist_custom_profile_text_hint_text: "<b> Tell about yourself, your education\
+  \ or work experience! </b>\n \nYour message should not contain links and cannot\
+  \ be longer than 600 characters."
+therapist_custom_profile_text_missing_text: <b> You can add the text to your profile
+  so that it is easier for people to meet you and learn about your specialization!
+  </b>
+therapist_custom_text_faulty_text: "<b> It seems that this text is too long ☹️ </b>\n\
+  \ \nTry to reduce it to 600 characters and send it again!"
+therapist_email_placeholder: Example@yandex.ru
+therapist_name_placeholder: Pushkin, Alexander Sergeyevich
+therapist_new_subscription_was_purchased_noti_text: '<b> The user acquired a plan
+  {} </b> <b> {} in {} </b> <b> with you 🎊 </b>
+
+
+  You have to accept the conditions of the offer and the money will go to your account!'
+therapist_ogrnip_placeholder: '319770594261189'
+therapist_profile_picture_removed_text: "<b> deleted your photo \U0001F636 </b>\n\
+  \ \nYou can always download a new one here"
+therapist_profile_settings_menu_text: "<b> Here you can configure how Bota users see\
+  \ you </b>\n \nButton <b> \U0001F441 Prevertent </b> will show a card of your profile\
+  \ in the form in which it will be visible to users in the menu <b> \U0001F6DF Psychologists\
+  \ </b>"
+therapist_profile_update_hint_text: In <b> ⚙️ My office </b> can edit your <b> 🧳 profile
+  </b> or see your <b> 💰finance </b>
+therapist_tax_id_placeholder: 12345 ...
+therapy_finances_empty_text: So far, there is empty 🥺 — the data will appear immediately
+  after the first payment
+therapy_finances_menu_text: '<b> This menu contains the history of your payments 🏦
+  </b>
+
+
+  '
+therapy_header_text: <b> The menu of the psychologist </b>
+therapy_info_menu_text: "<b> Here you can find the rules for using a bot </b>\n \n\
+  Soon, assistance sections will appear here, in which there will be hints on the\
+  \ buttons and sections of the menu."
+therapy_main_menu_greeting_text: <b> Welcome, {} 👋 </b>
+therapy_onboarding_review_data_text: "<b> Everything! I remembered your data — you\
+  \ can double -check if everything is true \U0001F607 </b>\n \n<b> \U0001F4C7 Name:\
+  \ </b> <i> {} </i>\n<b> \U0001F4E7 email: </b> <i> {} </i>\n<b> \U0001F4CD address:\
+  \ </b> <i> {} </i>\n<b> \U0001F4DE Phone number: </b> <code>+{} </code>\n \n<b>\
+  \ \U0001F3E6 Bank: </b> <i> {} </i>\n<b> \U0001F522 BIK: </b> <code> {} </code>\n\
+  <b> \U0001F522 Corr. Account: </b> <code> {} </code>\n<b> \U0001F522 races. Account:\
+  \ </b> <code> {} </code>\n<b> \U0001F522 tion: </b> <code> {} </code>\n<b> \U0001F522\
+  \ Ogrnip: </b> <code> {} </code>\n \nIf everything is true, we can begin to consider\
+  \ our contract with you!"
+therapy_personal_data_form: "<b> This data is available for viewing only to you and\
+  \ the service </b>\n \nIf there is an error or something has changed since the registration-let\
+  \ us know through <b> ℹ️ Support </b>\n \n<b> \U0001F4C7 Name: </b> <i> {} </i>\n\
+  <b> \U0001F4E7 email: </b> <i> {} </i>\n<b> \U0001F4CD address: </b> <i> {} </i>\n\
+  <b> \U0001F4DE Phone number: </b> <code>+{} </code>\n \n<b> \U0001F3E6 Bank: </b>\
+  \ <i> {} </i>\n<b> \U0001F522 BIK: </b> <code> {} </code>\n<b> \U0001F522 Corr.\
+  \ Account: </b> <code> {} </code>\n<b> \U0001F522 races. Account: </b> <code> {}\
+  \ </code>\n<b> \U0001F522 tion: </b> <code> {} </code>\n<b> \U0001F522 Ogrnip: </b>\
+  \ <code> {} </code>"
+therapy_settings_menu_text: '<b> 🧳 This menu stores all your data and settings </b>
+
+
+  If you see a mistake or if you want to change something just write to us through
+  <b> ℹ️ Support </b>'
+update_therapist_profile_picture_text: <b> You can replace your photo — just send
+  me a new one 🙂 </b>
+working_hours_menu_text: <b> Here you can configure the time in which users will be
+  able to book consultation with you </b>

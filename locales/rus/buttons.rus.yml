@@ -1,0 +1,249 @@
+accept_friend_invite_button: ✅ Принять
+add_custom_therapist_profile_text_button: ✍️ Добавить текст
+add_option_button: ➕ Добавить ответ
+admin_menu_button: 🔐 Admin
+advices_menu_button: 👋 Советы
+advices_noti_menu_button: 👋 Советы (1)
+ai_chat_menu_button: 💬 Чат с ChatGPT
+ai_checkup_advice_button: 🪄 Совет на основе чекапа
+ai_checkup_advice_locked_button: 🔒 Совет на основе чекапа
+ai_question_type_button: От ChatGPT
+all_ok_button: ✅ Всё ОК
+answer_question_button: ✏️ Ответить
+ask_question_menu_button: 🙋‍♂️ Спросить совет
+average_button: 😐
+awful_button: 😖
+back_button: ↩️ Назад
+back_to_bot_button: ↩️ Назад в monday4me
+back_to_menu_button: ↩️ Назад в меню
+back_to_question_button: ↩️ Назад к вопросу
+bad_button: 😒
+bank_bic_info_button: 🏦 Узнать БИК банка
+bot_channel_button: 📻 Наш блог
+bot_subscription_menu_button: 💎 Расширенная версия бота
+call_button: 👩‍💻 Видео-консультация
+cancel_create_custom_question_button: ❌ Отмена
+cancel_subscription_button: 🛑 Отменить подписку
+change_advices_off_button: ❌ Советы
+change_advices_on_button: 💬 Советы
+change_age_button: '{"male": "🧒🧑👨 Возраст", "female": "👶👧👩 Возраст"}'
+change_checkup_notifications_time_button: 🕛 Время уведомлений
+change_emotion_type_button: 🔄 Сменить тип эмоции
+change_gender_female_button: 👩 Она
+change_gender_male_button: 👨 Он
+change_name_button: 📇 Имя
+change_settings_button: ⚙️ Изменить настройку
+change_timezone_button: 🌐 Мой часовой пояс
+chat_with_therapist_button: 📱 Чат-консультация
+checkup_noti_button: 😊 Чекап
+checkup_notification_disabled_settings_button: 🔕 Напоминание
+checkup_notification_enabled_settings_button: 🔔 Напоминание
+checkup_questions_settings_button: ❓ Добавить вопрос в чекап
+checkup_settings_button: ⚙️ Настройки
+checkup_wisdom_button: 🧙‍♂️ Мудрость дня
+choose_therapist_flow_button: 🔎 Посмотреть психологов
+city_main_menu_photo_button: 🌆 Мой город
+close_button: ☑️ Закрыть
+connect_alice_button: 🔉 Подключить Яндекс.Алису
+consultation_button: 💬 Консультация
+continue_onboarding_first_button: ▶️ Продолжить
+continue_onboarding_second_button: ▶️ Продолжить
+course_menu_button: 📱 Узнать что-то новое
+create_new_emotion_button: ➕ Добавить эмоцию
+create_new_emotion_locked_button: 🔒 Добавить эмоцию
+create_new_source_button: ➕ Добавить причину
+create_new_source_locked_button: 🔒 Добавить причину
+custom_emotions_settings_button: 🥹 Мои эмоции
+custom_main_menu_photo_button: 📸 Моя картинка
+custom_questions_menu_button: ❓ Мои вопросы
+custom_questions_menu_locked_button: 🔒 Добавить вопрос
+day_daytime_button: ☀️ День
+dear_female_gender_button: 👩 Дорогая
+dear_male_gender_button: 👨 Дорогой
+decline_friend_invite_button: ❌ Отклонить
+decline_sparks_offer_button: ❌ Пока подумаю
+delete_button: 🗑️ Удалить
+delete_option_button: ️🗑 Убрать ответ
+diary_subscription_menu_button: 🔁 Подписка
+disable_checkup_notifications_button: 🔕 Выключить уведомления
+disable_main_menu_photo: 🙈 Без заставки
+discard_button: 🗑️ Удалить
+disconnect_button: 🔌 Отключить
+discuss_with_therapist_button: 💬 Обсудить день с {}
+display_city_picture_button: ✅ Показывать город в меню
+document_agreement_button: '✅ Я принимаю условия '
+download_button: 🗂 Загрузить Данные
+dq_create_button: ➕️ Добавить вопрос
+dq_create_locked_button: 🔒 Добавить вопрос
+edit_button: ✏️ Редактировать
+edit_options_button: ✏️ Изменить ответы
+edit_profile_picture_button: 🔄 Изменить
+edit_question_button: ✏️ Изменить вопрос
+emotions_list_button: ✍️ Пройти чекап
+enable_advices_button: ✅ Включить советы
+enable_checkup_notifications_button: 🔔 Включить уведомления
+english_language_button: 🇬🇧 Английский
+evening_daytime_button: 🌇 Вечер
+extra_settings_button: 👽 Другие настройки
+fast_checkup_disabled_button: '🔴 Быстрый чекап: выкл'
+fast_checkup_disabled_locked_button: '🔒 Быстрый чекап: выкл'
+fast_checkup_enabled_button: '✅ Быстрый чекап: вкл'
+fast_question_type_button: Быстро
+feedback_button: 👨🏻‍🚀 Техподдержка
+female_onboarding_gender_button: 👩 Женском
+finances_button: 🏦 Финансы
+finish_ai_chat_button: ✅ Завершить чат
+finish_button: ✅ Завершить
+finish_checkup_button: ✅ Завершить чекап
+finish_product_onboarding_button: 👍 Всё понятно
+forward_button: Далее ➡️
+free_question_type_button: От сообщества
+game_rules_button: ❓ Правила игры
+generate_token_button: 🔑 Сгенерировать токен
+german_language_button: 🇩🇪 Немецкий
+good_button: 😌
+goto_courses_catalogue_button: 🌐 Открыть каталог в браузере
+goto_therapist_from_noti_button: К психологу ➡️
+graph_main_menu_photo: 📊 Моё настроение
+how_can_it_help_me_button: ❓Как это мне поможет?
+ignore_button: 🗑️ Пропустить
+inbox_button: 🗃 Мои советы
+inbox_noti_button: 🗃 Мои советы ({})
+information_button: ℹ️ Информация
+invite_friend_button: 🤟 Пригласить друга
+invite_friend_locked_button: 🔒 Пригласить друга
+language_settings_button: 🌐 Сменить язык интерфейса
+long_call_button: 60 минут
+long_chat_button: 60 минут
+main_menu_photo_button: 🌄 Заставка
+male_onboarding_gender_button: 👨 Мужском
+medium_call_button: 30 минут
+medium_chat_button: 30 минут
+mood_source_preset_button: 💡 Добавить причину в чекап
+morning_daytime_button: 🌅 Утро
+move_source_button: ↔ Переместить
+move_source_locked_button: 🔒 Переместить
+my_alice_button: 🔉 Моя Яндекс.Станция
+my_friends_menu_button: ❤️ Чекап с друзьями
+my_profile_button: 😊 Мой профиль
+my_state_menu_button: 📆 Чекапы
+negative_emotion_button: 👍 Сделать положительной
+negative_vibe_button: ⬅ Отрицательные
+new_answer_noti_button: Прочитать ответ ➡️
+new_comment_noti_button: Прочитать комментарий ➡️
+new_language_wanted_button: 🙏 Хочу другой язык
+new_question_noti_button: Открыть вопрос ➡️
+new_source_place_button: 🎯 Сюда
+new_source_place_locked_button: 🔒 Сюда
+new_year_game_button: 🎅 Новый Год
+next_button: Следующая ▶️
+next_element_button: ➡️️
+next_onboarding_step_button: Далее ➡️
+next_therapist_button: Следующий психолог ➡️
+next_time_button: ❌ В другой раз
+night_daytime_button: 🌙 Ночь
+no_button: ❌ Нет
+no_display_city_picture_button: ❌ Убрать фото города
+no_time_for_checkin_button: Нет времени сейчас 😞
+notifications_settings_button: 🔔 Уведомления
+ogrnip_info_button: 👨‍⚖️ Узнать свой ОГРНИП
+ok_button: 👍 OK
+okay_button: 👌 Ок
+one_day_subscription_button: 24 часа
+one_week_subscription_button: Неделя
+pending_questions_menu_button: 🧐 Помочь
+perfect_button: 🤩
+positive_emotion_button: 👎 Сделать отрицательной
+positive_vibe_button: Положительные ➡
+previous_button: ◀️ Предыдущая
+previous_element_button: ⬅️
+previous_therapist_button: ⬅️ Предыдущий психолог
+previous_weeks_button: 📜 История чекапов
+proceed_button: Дальше ➡️
+proceed_to_payment_button: Оплатить
+product_onboarding_button: ℹ️ О monday4me
+profile_picture_settings_button: 📸 Фото
+purchase_subscription_button: 💳 Оформить, 69₽/мес
+purchase_subscription_trigger_button: 🔑 Открыть эту функцию
+question_after_checkup_button: 🙋‍♂️️ Совет сообщества
+quickstart_button: ▶️ Позаботиться о себе
+quickstart_therapist_button: 🚨 Начать чат с психологом
+rate_advice_button: ⭐️⭐️⭐️️️ Оценить совет
+rating_buttons: '{"highest": "⭐️⭐️⭐️ Очень!", "medium": "⭐️⭐ Да", "lowest": "⭐ Нет"}'
+ready_button: ✅ Готово
+record_circle_button: ❄️ Бросить снежок
+record_new_video_button: 🎥 Записать новый снежок
+remove_button: 🗑 Удалить
+remove_external_profile_url_button: 🗑 Удалить ссылку
+remove_friend_menu_button: 👋️ Отключить друга
+rename_button: ✏️ Переименовать
+report_a_problem_button: 🚨 Сообщить о проблеме
+report_advice_button: 🏴 Пожаловаться
+request_advice_button: 🙋 Спросить
+rerecord_button: 🔂 Перезаписать
+resend_question_button: 🔂 Спросить ещё раз
+russian_language_button: 🇷🇺 Русский
+save_to_diary_button: 💾 Сохранить мудрость дня
+see_previous_weeks_button: 📜 Посмотреть историю
+send_button: ✉️ Отправить
+send_capitalised_button: 🛫 ОТПРАВИТЬ
+send_geo_button: 📍 Отправить геолокацию
+send_phone_number_button: ☎️ Отправить Номер
+settings_menu_button: ⚙️ Настройки
+share_friends_contact_button: 👤 Выбрать контакт
+short_call_button: 15 минут
+short_chat_button: 15 минут
+show_answer_button: 📩 Ответ
+show_comment_button: 💬 Комментарий
+show_original_text_button: 🔍 Показать оригинал
+show_translated_text_button: 🔍 Показать перевод
+skip_button: Пропустить ➡️
+skip_checkup_button: 😴 Пока не хочу
+something_wrong_button: ⛔️ Тут ошибка
+sos_button: 🚨 Срочный чат с психологом
+sparks_quests_button: 💥 Мои задания
+start_checkup_button: ➡️ Начать чекап
+start_checkup_from_main_menu_button: ✍️ Пройти чекап
+start_subscription_button: 💎 Расширенная версия бота
+start_therapy_onboarding_button: Начать ➡️
+tax_id_info_button: 💸 Найти ИНН на Госуслугах
+therapist_after_checkup_button: 🚨 Психолог на 15 минут
+therapist_documents_settings_button: 📑 Документы
+therapist_personal_data_settings_button: 🔒 Мои персональные данные
+therapist_profile_conceal_button: 🙈 Скрыть профиль
+therapist_profile_preview_button: 👁 Предпросмотр
+therapist_profile_reveal_button: 🙉 Показывать профиль
+therapist_profile_settings_button: 🧳 Мой профиль
+therapist_question_type_button: У психолога
+therapists_menu_button: 👩🏻‍🦳 Психологи
+therapy_custom_profile_text_button: ✍️ Описание
+therapy_external_profile_url_menu_button: 🌐 Ссылка на профиль
+therapy_finances_button: 💰 Финансы
+therapy_menu_button: 🩺 Терапия
+therapy_settings_button: ⚙️ Мой кабинет
+to_dialogue_button: 💬 Обсудить в чате
+transactions_button: 💸 История транзакций
+turn_off_button: 🟢 Включить вопрос
+turn_on_button: 🔴 Выключить вопрос
+unlink_payment_method: 💳 Отвязать метод оплаты
+unlock_this_feature_button: 🔑 Открыть эту функцию
+update_custom_therapist_profile_text_button: 🔄 Обновить текст профиля
+usd_purchase_subscription_button: У меня нет ₽-карты
+user_data_button: 💾 Экспортировать данные
+v1_remind_onboarding_first_button: 👀 Посмотреть
+v1_remind_onboarding_second_button: 👀 Посмотреть
+v1_remind_onboarding_third_button: 👀 Посмотреть
+view_weekly_report_button: 🥳 Давай смотреть отчет!
+view_weekly_report_locked_button: 🔒 Обзор недели
+want_button: 👍 Хочу
+want_checkups_button: 😍 Круто, буду знать
+want_sparks_button: 💥 Круто, давай попробуем!
+weekly_report_button: 📊 Статистика
+weekly_report_locked_button: 🔒 Статистика
+what_is_alisa_button: ℹ️ Что такое Алиса?
+whats_next_button: 😲 Ого, а что дальше?
+wisdom_setting_disabled_button: 👁️ Показывать мудрости
+wisdom_setting_enabled_button: 🙈 Скрыть мудрости
+working_hours_button: 📆 Рабочий график
+write_me_button: 🤝 Да, напиши мне
+yes_button: ✅ Да

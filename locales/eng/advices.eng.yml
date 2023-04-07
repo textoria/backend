@@ -1,0 +1,158 @@
+advice_comment_placeholder_text: Tell me how advice
+advice_commented_on_text: '
+
+
+  <b> 📝 Commentary to advice: </b>
+
+  {}'
+advice_loading: I download data ...
+advice_rated_form_text: '
+
+
+  <b> Council rating: </b> {}'
+advice_reported_alert_text: The complaint was sent!
+advice_request_sent_alert_text: "Fire \U0001F525 I started finding advice for you!\n\
+  \ \nYou will receive a notification in this chat as soon as someone answers you"
+advice_sent_text: '{"male": "You are the best! ❤️ \n\n enterteled your advice.", "female":
+  "You are the best! ❤️ \n\n corrected your advice."}'
+advice_short_message_text: 'Your message is too short!
+
+
+  Try to write again or edit the previous one.'
+advice_short_message_tip_text: 'Your message is short.
+
+
+  You can continue or supplement it by editing or writing Zakovo.'
+advices_header_text: <b> tips </b>
+advices_inaccessible_text: <b> In order to receive and give advice, you need to turn
+  them on. </b>
+advices_menu_text: 'Consult with <b> {} </b>+ users from around the world
+
+
+  1. Questions are asked anonymously
+
+
+  2. Write in any language — a translator is built into the bot
+
+
+  3. You can <b> 🧐 Help </b> to someone advice, if there is a minute'
+ai_advice_disliked_alert_text: 'I''m really sorry! We will take into account your
+  assessment and be sure to improve this function.
+
+  Try to ask the same question!'
+ai_advice_liked_alert_text: Super! You can write to us in support if you have questions
+  or suggestions about this function.
+ai_generated_advice_failure_text: "<b> UPS ... Something went wrong. </b>\n \nTry\
+  \ to ask your question in another way while we deal with the problem."
+ai_generated_advice_form: "<b> Tip from AI: </b>\n \n<i> {} </i>\n \n<b> Did the advice\
+  \ help you? </b>"
+ai_question_description: "In this format, the answer to your question will write <b>\
+  \ and artificial intelligence) </b>.\n \n<b> price: </b> 1\U0001F4A5 (you have {}\
+  \ \U0001F4A5)"
+answer_question_placeholder_text: '{"male": "What would you advise ...", "female":
+  "What would you advise ..."}'
+answer_received_form_text: "<b> ❔ question </b> <i>#{} </i>\n<b> \U0001F5D3️ Creed:\
+  \ </b> <i> {} </i>\n<b> ℹ️ Status: </b> <code> {} </code>\n \n<b> ✉️ There is a\
+  \ question:\n</b> <i> {} </i>\n \n<b> \U0001F4E8 Council: </b>\n<i> {} </i>"
+answer_received_status_text: The answer is read
+answer_received_text: '{"male": "<b> here is what you wrote: </b> \n\n <i> {} </i>
+  \n\n\n am I am recovering?", "female": "<b> this is what you wrote : </b> \n\n <i>
+  {} </i> \n\n, I am recovering? "}'
+answer_sent_status_text: The answer is sent
+answer_typing_text: '<b> What do you think, what advice can you give? </b>
+
+
+  <b> Question: </b>
+
+  <i> {} </i>
+
+
+  Try to write something supportive and useful, and I will transfer your advice 🤗'
+choose_advice_type_text_initial_form: "<b>What kind of advice would you prefer?</b>\n\
+  \ \nYou can re-ask later with 1 click"
+comment_received_text: "<b> Your comment will look like this: </b>\n \n<i> {} </i>\n\
+  \ \nSending?"
+comment_sent_text: Sent your message! Thanks ☺️
+duplicate_advice_text: "<b> It seems that you already had a similar question over\
+  \ the past 24 hours. </b>\n \nPlease wait for the answer to that question or reformulate\
+  \ the old one."
+edit_message_text: '<b> edit the message, as you usually do it in a telegram. </b>
+
+
+  To do this, cling to the message for a long time so that the context menu appears
+  and select <b> edit </b>'
+expecting_answer_status_text: I'm waiting for the answer 😊
+female_receiver_gender: 👩 her
+free_for_all_form_text: "<b> ❔ question </b> <i>#{} </i>\n<b> \U0001F5D3 Zadan: </b>\
+  \ <i> {} </i>\n \n<b> ✉️ The question of the question:\n</b> <i> {} </i>\n "
+free_question_description: "In this format, your question will be anonymously published\
+  \ in the “Help” section, where other users will be able to answer it.\n \nAfter\
+  \ 3 answers, the question will be hidden."
+gendered_answer_verb: '{"male": "answered", "female": "answered"}'
+gpt_user_limit_exceeded: "Exceeded the AI ​​answers per week!\n \nTo avoid the number\
+  \ of answers from AI, buy a subscription."
+highest_ranking_alert_text: 'Sheya! It’s cool that they helped you 😊 I will give my
+  gratitude!
+
+
+  You can write a comment on the advice — your interlocutor will see him'
+inbox_advice_form_text: '<b> 📨 Tip: </b>
+
+  <i> {} </i>'
+inbox_answer_sent_form_text: "<b> \U0001F4EC Council </b> <i>#{} </i>\n<b> \U0001F5D3\
+  ️️Anicated: </b> <i> {} </i>\n<b> ℹ️ Status: </b> <code> {} </code>\n<b> you {}:\
+  \ </b> <i> {}, {} years </i>\n \n<b> ✉️ Curric:\n</b> <i> {} </i>\n \n<b> \U0001F4E8\
+  \ Tip: </b>\n<i> {} </i>"
+inbox_empty_text: I will write if someone asks your advice 😉
+inbox_menu_form_text: "<b> \U0001F4EC Council </b> <i>#{} </i>\n<b> \U0001F5D3️ Preumitated:\
+  \ </b> <i> {} </i>\n<b> ℹ️ Status: </b> <code> {} </code>\n<b> You answer: </b>\
+  \ <i> {}, {} years </i>\n \n<b> ✉️ Curric:\n</b> <i> {} </i>\n "
+incoming_question_ignored_text: I send this question to another user
+lowest_ranking_alert_text: Oh, it's a shame, maybe ask another user?
+male_receiver_gender: 👨 Him
+medium_ranking_alert_text: Okay, I will give thanks for the advice😌
+message_exceeded_limit: 'Your message exceeded the limit in {} symbols on {} symbols
+  (-a).
+
+
+  Try to write it more concise.
+
+
+  You can <b> write </b> a message from scratch or <b> edit </b> the previous one.'
+no_unanswered_questions_alert: "At the moment, all users have already received advice\
+  \ \U0001F973\n \nMaybe you want to ask your own question?"
+pending_advice_limit_achieved: Let's rain an answer to at least one question? Then
+  you can ask another advice
+question_deleted_by_admin_alert_text: The question was deleted 😢
+question_translated_warning: '
+
+
+  <b> The question is translated from {} to {} </b>'
+rate_advice_text: '
+
+
+  <b> Did this advice help you? </b>'
+reask_question_after_low_rating_text: <b> It is a pity that the advice did not help
+  you — let's ask him again? </b>
+request_advice_placeholder_text: What happened?
+request_advice_text: "<b> Write what worries you? </b>\n \nTry to meet {} symbols:\
+  \ this is the maximum for a text message in Telegram"
+request_received_text: '<b> Your question will look like this: </b>
+
+
+  <i> {} </i>
+
+
+  All OK?'
+searching_receiver_status_text: I am looking for a recipient
+sent_advice_form_text: '<b> 📨 Council: </b>
+
+  <i> {} </i>'
+sent_empty_text: '{"male": "Ты пока ни о чём не спрашивал. Может, что-то волнует тебя
+  прямо сейчас? 🤔", "female": "Ты пока ни о чём не спрашивала. Может, что-то волнует
+  тебя прямо сейчас? 🤔 "}'
+sent_menu_form_text: "<b> ❔ question </b> <i>#{} </i>\n<b> \U0001F5D3️ Creed: </b>\
+  \ <i> {} </i>\n<b> ℹ️ Status: </b> <code> {} </code>\n \n<b> ✉️ There is a question:\n\
+  </b> <i> {} </i>\n "
+write_comment_helper_text: "<b> Do you want to write something to the author of advice?\
+  \ \U0001F607 </b>\n \nYou can just thank or say how it helped you"

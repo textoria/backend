@@ -1,0 +1,26 @@
+add_option: 'Send me a possible answer: <b>{}</b>
+
+
+  Hint: with emoji they look better! 😉'
+created_question: Hooray! The question was created 🎉
+delete_option: 'Click on the answer option that you want to delete
+
+
+  Your question: <b>{}</b>'
+deleted_option: Remove the option {}
+dq_create_new_header: <b>Creating a new question</b>
+dq_create_question: 'Write the question ─️ I will ask you after ✅ <b>checkup</b>
+
+
+  For example: <i>Did you sleep well today?</i>'
+dq_select_questions: Choose the questions that you want to track ─️ I will ask them
+  after ✅ <b>checkup</b>
+fill_in_options: 'Your question:
+
+
+  <b>{}</b>'
+question_exists: 'You already have such a question 😥
+
+
+  '
+questions_finished: See you tomorrow! ❤️

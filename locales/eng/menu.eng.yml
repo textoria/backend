@@ -1,0 +1,58 @@
+course_menu_text: "<b> We have collected a catalog of 15+ telegram bots that will\
+  \ help you improve sleep, food, overcome stress and learn the new. </b>\n \nGo to\
+  \ the site to look at the catalog and choose a bot to your liking"
+edit_note_confirmation_text: <b> Do you want to edit the text of this note? ✍️ </b>
+interval_unlock_feature_limits_text: ⏰ Next time {} is free through {}
+main_menu_text: "<b> Hey, {} \U0001F44B</b>\n \n{}"
+menu_header_text: <b> menu </b>
+morning_menu_greetings_text: "<b> Good morning, {} \U0001F31E </b>\n \n{}"
+new_year_game_confirm_send: "<b> like a snowball, and how much heat is in it! </b>\n\
+  \ \nThrowing?"
+new_year_game_menu_text: "<b> wow, well, year, tell me? </b>\nSo many things have\
+  \ happened that it is difficult to remember everything at once (and I want to forget\
+  \ something soon). Previously, at the end of the year there were so many worries\
+  \ and deeds, but now I want to hug loved ones and just be all together ❤️\n \n<b>\
+  \ I know what to do! </b>\nLet's play <b> ❄️ Mugs-snugs </b>-we will sculpt them\
+  \ from warm words to become closer.\n \n<b> The rules of the game are simple: </b>\n\
+  \ \n1️⃣ <i> Throw your snowball with warm words to another person\n \n2️⃣ Catch\
+  \ someone else's snowball immediately after! </i>"
+new_year_game_no_note_found: "<b> Thank you! </b>\n \nSoon you will receive a snowball\
+  \ from another person \U0001F381"
+new_year_game_recording_tips_text: "<b> Write down your ❄️ Circle-Snow! </b>\n \n\
+  \ <i> to the right of the field where the text is typed, there is a button ⏺️ (a\
+  \ circle in a square).\n \n · Close it and say it, but how you let it go — the snow\
+  \ will be ready.\n \n · If instead of a mug in a square you see the microphone icon,\
+  \ just click on it once and the mode will switch. </i>\n \n<b> Try to record a circle\
+  \ for at least 10 seconds and wish a person at the other end of something pleasant\
+  \ in the new year \U0001F970 </b>"
+new_year_game_user_banned_alert_text: "Oops, something went wrong...\n \nWrite us\
+  \ in support @monday4me_support and we will deal with the problem!"
+new_year_game_video_received: "<b> And here the snow came for you! </b>\n \nI hope\
+  \ you like him ❤️"
+night_menu_greetings_text: "<b> good night, {} \U0001F311 </b>\n \n{}"
+quickstart_menu_text: <b> Where will we start? </b>
+save_note_for_date_confirmation_text: <b> Do you want to save it as a note on {}?
+  </b>
+save_note_from_menu_confirmation_text: <b> Do you want to save it as a note in 📆 Your
+  diary? </b>
+sparks_main_menu_text: '
+
+
+  💥 {}'
+sparks_offer_menu_text: '<b> For the first check I accrued you 20 sparks </b>
+
+
+  This is like bonus points-they can pay for half the cost of services inside the
+  bot: for example, a call-consulting with a psychologist.
+
+
+  To use sparks, please accept <a href=''https://drive.google.com/file/d/1n-rc_xacgdht5okmlenms01hwbja18d0/View''>
+  Conditions of the loyalty program </a>'
+therapists_offline_text: 🔴 Psychologists are offline now, but the community is not
+  sleeping
+therapists_online_menu_text: '🟢 Psychologists online: <b>{}</b>'
+unlock_ai_advice_limit_text: The advice can be asked
+unlock_limit_time: '{} d {} h {} m'
+unlock_voice_note_limit_text: The voice note can be added
+voice_notes_locked_text: <b> 🔒 Translation and storage of voice notes are available
+  to users with a subscription </b>

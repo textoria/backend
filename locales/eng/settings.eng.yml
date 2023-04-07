@@ -1,0 +1,210 @@
+active_sub_text: 💎 It's cool that you use <b>Advanced version</b> of the bot
+advice_banned_alert_text: Your access to 💬️ Tips is blocked. Write us through 📣 feedback
+  if this is an error.
+advices_disabled_text: Disabled tips, no one else will write to you 😔
+advices_enabled_text: Now you can consult and advise again! ☺️
+alisa_connected_text: '{"male": "<b> You have already connected Alice 😉 </b> \n\n
+  Each check from Alice I will accrue you 5💥", "female": "<b> You have already connected
+  Alice 😉 </b> \n\n Every check from Alice I will accrue to you 5💥 "}'
+alisa_disable_approved_text: Alice is successfully untied from your account 🔌
+alisa_disable_token_text: '{"male": "<b> are you sure you want to turn off Alice?
+  </b> \n\n <b> ⚠️ Attention: </b> <i> to connect Alice again, you will have to enter
+  the token again </i> ","female":" <b> are you sure you want to turn off Alice? </b>
+  \n\n <b> ⚠️ Attention: </b> <i> to connect Alice again, you will have to introduce
+  again token </i> "}'
+alisa_not_connected_text: '<b> A check can be passed with Alice — a voice assistant
+  Yandex! </b>
+
+
+  To do this, just tell Alice \ "<i> Alice, run the skill \" Caring for yourself \
+  "</i> \" and call her your identifier code:
+
+
+  <b> <i> {} </i> </b>'
+alisa_sparks_bonus_hint_text: '
+
+
+  <code> p.s. For the connection of Alice, I will accrue you 50💥 </code>'
+alisa_token_generated_text: "Generated a new token:\n \n{}"
+answer_options_lower_limit_alert: This option cannot be deleted — each question should
+  have 2+ answers.
+bot_info_menu_text: <b> Here you can see useful information about your account and
+  ask a question about the bot </b>
+change_age_alert_text: Age is changed to {} ✅
+change_age_header_text: 'Age is chosen: <b> {} </b>
+
+
+  To change age, choose it below'
+change_custom_main_menu_photo: <b> just send me a new photo and I will attach it to
+  the menu </b> 😎
+change_language_text: What language do you prefer?
+change_user_diplay_name_text: "<b> How do you want me to call you? </b>\n \nSend your\
+  \ name with text (maximum 30 characters).\n\nThis name will be seen in the bot interface\
+  \ and in a chat with psychologists"
+checkin_quest_name: 5 checks have been passed
+choose_timezone_text: Ok, then tell me that you have an hour now?
+city_enabled: 🌆 Now I will show the photos of your city on the main menu
+custom_display_name_too_long_text: "<b> It seems that your name is too long for me\
+  \ ☹️ </b>\n \nTry to write again within 30 characters"
+data_export_caption: Your data is saved in this file.
+deleted_alert: Deleted the option {}
+deleted_option_alert: Deleted the question {}
+disable_city_picture: The view of the city in the menu is disconnected 🌆
+disable_noti_text: Are you sure? Daily reminders play a very important role in helping
+  yourself!
+dq_edit_add_option_text: 'Add the answer to the question: <b> {} </b>
+
+
+  <i> send me a new possible answer, and I will add it to the previous ones ─️ </i>'
+dq_edit_delete_confirm_text: 'You are sure that you want to delete the question <b>
+  {} </b>
+
+
+  <b> ⚠️ Attention: Removing the question, you delete your answers to him. If you
+  want to save the answers, but you no longer want to get a question ─️ just turn
+  it off </b>'
+dq_edit_option_delete_confirm: Are you sure you want to delete the answer option <b>
+  {} </b> to the question <b> {} </b>?
+dq_edit_option_edit_text: 'Answer now: <b> {} </b>
+
+
+  <i> Write to me what to replace it 😉 </i>'
+dq_edit_options_text: '<b> {} </b>
+
+
+  <i> Select the answer that you want to change </i>'
+dq_edit_question_text: 'The text of the question now: <b> {} </b>
+
+
+  Write to me what to replace it 😉'
+dq_edit_questions_menu: '{} <b> {} </b>
+
+
+  <i> Choose what you want to do with the question </i>'
+dq_edit_selected_option: 'We change the answer <b> {} </b> at the question <b> {}
+  </b>
+
+
+  <i> What do you want to change? </i>'
+enable_city_picture: Now the menu will be visible photos of your city 🌆
+feedback_text: Tell us everything that worries you or pleases in our bot. Or maybe
+  you want us to change or add something. You can send a picture or write a text.
+graph_enabled: 📊 Now I will show the schedule of your mood in the main menu
+language_changed_text: Hooray, new language is set! 😃
+main_menu_photo_disabled: 🙈 I will no longer show the picture on the main menu
+main_menu_photo_text: <b> Do you want to update the photo on the main menu? </b>
+multiple_questions_sent_name: The question is asked by several users
+no_custom_questions_alert_text: You still have no days of your day ─️ it's time to
+  create a couple 😉
+no_quest_streak_text: '{"male": "<b> you passed </b> <code> 0/5 </code> <b> ⏳ checkups.
+  </b>", "female": "<b> you passed </b> > <code> 0/5 </code> <b> ⏳ checkups. </b>
+  "}'
+no_transactions_alert: You have no transactions yet 🙄
+noti_disabled_alert_text: "Disabled notifications!\n \nYou can turn them on in the\
+  \ settings if something changes yet"
+noti_enabled_alert_text: "Included notifications!\n \nWe are waiting for a suitable\
+  \ moment to remind you to do something useful."
+noti_time_changed_text: "I remembered \U0001F60E\n \nWe will send you notifications\
+  \ to {}: 00"
+partial_quest_progress_text: '{"male": "<b> you passed </b> <code> {}/5 </code> <b>
+  ⏳ Chekapov! </b> \n continues in the same spirit", "female": "<b> You passed </b>
+  <code> {}/5 </code> <b> ⏳ Chekapov! </b> \n continues in the same spirit. "}'
+payment_method_unlink_prompt_text: '{"male": "<b> are you sure you want to untie the
+  payment method? </b> \n\n the next purchase, you will need to enter your card data
+  again.", "female": "<b> you are sure, you are sure What do you want to untie the
+  payment method? </b> \n\n by the next purchase, you will need to re -enter your
+  card data. "}'
+payment_method_unlinked_alert_text: The payment method was successfully untied.
+profile_completed_noti: I added 15 💥 to your balance for filling the profile 😉
+profile_settings_menu_text: <b> Here you can edit your profile. </b>
+pronoun_changed_text: Updated your appeal ✅
+quest_progresses_header: '<b> Here you can see your progress in obtaining new 💥! </b>
+
+
+  '
+quest_streak_completed_text: '<code> 5/5 </code> ✅ Chekapov! <b> Congratulations on
+  receipt of sparks! </b>
+
+  Come back tomorrow to start going through the checks again 😇'
+reuse_photo_text: <b> click ok 'to use your old picture or just send me a new one,
+  and I will attach it to the menu </b> 😎
+reused_photo: 📸 I show your picture again on the main menu
+same_language_text: We are already using this language! 😉
+same_pronoun_text: You already have such a pronoun! 😉
+send_geo_for_city_exists_text: '<b> I found a photo of your city </b>
+
+
+  Press ''OK'' to use it or have left your location again'
+send_geo_for_city_text: '<b> share geolocation so that I determine your time zone
+  🌎 </b>
+
+
+  🎁 Bonus: A photograph of your city will meet you in the bot menu
+
+
+  P.S. You do not have to throw off the exact location – you can choose any point
+  on the map of your city and send me 😊'
+settings_header_text: <b> My profile </b>
+settings_menu_text: '<b> Hello, {} </b> 👋
+
+
+  <b>Your local time:</b> <code>{}</code>'
+sparks_menu_offer_unaccepted_text: "<b> Here you can see the balance and the history\
+  \ of purchases. </b>\n \nAn important point: in monday4ME there is a <S> program\
+  \ of loyalty </S> the program of self -care is sparks.\n \nYou can accumulate points\
+  \ by taking care of yourself, and then pay them up to 50% of the cost of subscription\
+  \ to a psychologist.\n \nFor example, every 5 daily <b> checks </b> in a row give\
+  \ you +5 \U0001F4A5.\n \nSmall formality: to become a member of the loyalty program\
+  \ and receive sparks, please accept the conditions <a href='https://drive.google.com/file/1n-rc_xacgdht5okmlenms01hwbja18d/view'>\
+  \ Offers </a>"
+sparks_menu_text: "<b> Here you can see the balance, your progress on receiving \U0001F4A5\
+  \ and the history of purchases. </b>\n \nIn the \"Transaction History\" you can\
+  \ see your purchases, and what you got \U0001F4A5 and what you spent on!\n \n<b>\
+  \ Now you have </b> <code> {} </code> <b> \U0001F4A5 </b>"
+sparks_offer_accepted_alert: Now you can use sparks 💥
+sparks_transactions_header: '<b> Here you can see what you got for 💥 and what you
+  spent </b>
+
+
+  '
+successful_export_alert_text: Your data export was successful 💿
+timezone_changed_text: Now our watch coincides 🥳
+try_send_geo_again: '🛑 <b> Something went wrong </b>
+
+
+  Try once more!'
+turned_off_alert: Turned off the question – I don't ask anymore
+turned_on_alert: Included the question – now I will ask
+unsuccessful_export_alert_text: Something went wrong!
+update_noti_time_text: Well, when can I remind you?
+update_user_profile_picture_text: "<b> Do you want to update your photo? </b>\n \n\
+  Just send me a new photo, and I will attach it to your profile \U0001F60E"
+upload_user_profile_picture_text: "<b> You have not yet been uploaded by a photo \U0001F4F8\
+  \ </b>\n \nSend me your photo and I will attach it to your profile!"
+user_data_age: Age
+user_data_check_ins: My checks
+user_data_custom_check_ins: Questions of the day
+user_data_date: date of
+user_data_emotions: Emotions
+user_data_gender: Floor
+user_data_header_text: "<b> Here you can get all your data in one file! </b>\n \n\
+  Your data will be saved in .xlsx format (Excel table). In the file you can find\
+  \ your notes, questions and answers of other people, the results of checks, as well\
+  \ as data about your profile."
+user_data_joined_on: The date of registration
+user_data_language: Language
+user_data_mood: Mood
+user_data_notes: My thoughts
+user_data_other_answer: The response of the interlocutor
+user_data_other_comment: Comment of the interlocutor
+user_data_other_question: The question of the interlocutor
+user_data_other_rating: Assessment of the interlocutor
+user_data_saved_notes: Thoughts
+user_data_source: A source
+user_data_timezone: Timezone
+user_data_user: I AM
+user_data_user_advices: My advice
+user_data_user_answer: My answer
+user_data_user_comment: My comments
+user_data_user_question: My questions
+user_data_user_rating: My mark

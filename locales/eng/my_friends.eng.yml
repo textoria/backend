@@ -1,0 +1,32 @@
+friend_blocked_bot_text: "<b> Oops ... It seems that your friend blocked me \U0001F972\
+  \ </b>\n \nAsk them to unlock me and try again!"
+friend_not_registered_text: "<b> I am not yet familiar with your friend ☹️\n \nSend\
+  \ him this link: </b>\n \n<seode> {} </sode>\n \nAfter meeting me, your graphs will\
+  \ be syneparate"
+friend_removed_alert_text: Successfully turned off {}
+graphshare_invitation_accepted_text: "{} <b> adopted a request for adding to friends\
+  \ \U0001F973 </b>\n \nYour graphs are synchronized, you can always configure the\
+  \ list of friends in the menu <b> \U0001F48C invite a friend </b>"
+graphshare_invitation_sent_text: "<b> I sent an invitation \U0001F973 </b>\n \nWaiting\
+  \ for a response!"
+graphshare_invitation_text: "{} <b> wants to add you as a friend so that you follow\
+  \ the mood \U0001F389 </b>\n \nYou will see the mood of each other on the schedule\
+  \ and receive notifications when a friend will pass the first check in a day."
+graphshare_invite_accepted_alert_text: "Congratulations \U0001F389\n \nNow you are\
+  \ friends with each other!"
+graphshare_invite_declined_alert_text: Okay, the request is rejected
+invite_friend_instructions_text: "<b> \U0001F4C7 Give me the contact of your friend\
+  \ </b>\n \nYour friend will have to accept an invitation, after which your graphs\
+  \ will be synchronized \U0001F389"
+invite_friends_locked_info_text: "<b> \U0001F4C8 General graphs </b>\n \nWith common\
+  \ schedules, you can follow your mood with friends and loved ones\n \n\U0001F512\
+  \ This function is not available to you so far\n \n\U0001F511 To activate it, drawing\
+  \ up a paid nerd subscription. Functionality will become available immediately after\
+  \ payment"
+invite_not_sent_error_text: "<b> UPS ... An error occurred and I could not send an\
+  \ invitation </b>\n \nContact with support via @monday4me_support"
+my_friends_menu_empty_text: "<b> Change your mood with friends and loved ones </b>\n\
+  \ \nYou can add up to 4 friends"
+my_friends_menu_text: "<b>Invite your friends and loved ones to monday4me </b>\n \n\
+  Follow each other's mood on the general graphics and exchange checkups"
+remove_friends_menu_text: <b> Choose a friend you want to turn off? </b>

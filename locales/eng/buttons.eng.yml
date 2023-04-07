@@ -1,0 +1,249 @@
+accept_friend_invite_button: ✅ accept
+add_custom_therapist_profile_text_button: ✍️ Add text
+add_option_button: ➕ Add the answer
+admin_menu_button: 🔐 Admin
+advices_menu_button: 👋 Advices
+advices_noti_menu_button: 👋 Advices (1)
+ai_chat_menu_button: 💬 Chat with ChatGPT
+ai_checkup_advice_button: 🪄 CHECAPA -based advice
+ai_checkup_advice_locked_button: 🔒 CHECAPA -based advice
+ai_question_type_button: Instant advice
+all_ok_button: ✅ Everything is ok
+answer_question_button: ✏️ Reply
+ask_question_menu_button: 🙋‍♂️ Ask advice
+average_button: 😐
+awful_button: 😖
+back_button: ↩️ Back
+back_to_bot_button: ↩️ Back to monday4me
+back_to_menu_button: ↩️ Back to the menu
+back_to_question_button: ↩️ Back to the question
+bad_button: 😒
+bank_bic_info_button: 🏦 Learn the BIC of the bank
+bot_channel_button: 📻 Our blog
+bot_subscription_menu_button: 💎 Advanced version of bot
+call_button: 👩‍💻 Video consultation
+cancel_create_custom_question_button: ❌ abolition
+cancel_subscription_button: 🛑 Cancel subscription
+change_advices_off_button: ❌ Advices
+change_advices_on_button: 💬 Advices
+change_age_button: '{"male": "🧒🧑👨 Age", "female": "👶👧👩 Age"}'
+change_checkup_notifications_time_button: 🕛 Notifications time
+change_emotion_type_button: 🔄 Change the type of emotion
+change_gender_female_button: 👩 She
+change_gender_male_button: 👨 He
+change_name_button: 📇 Name
+change_settings_button: ⚙️ Change the setting
+change_timezone_button: 🌐 My time zone
+chat_with_therapist_button: 📱 Chat Consultation
+checkup_noti_button: 😊 Checkup
+checkup_notification_disabled_settings_button: 🔕 Reminder
+checkup_notification_enabled_settings_button: 🔔 Reminder
+checkup_questions_settings_button: ❓ Questions of the day
+checkup_settings_button: ⚙️ Settings
+checkup_wisdom_button: 🧙‍♂️ The wisdom of the day
+choose_therapist_flow_button: 🔎 Choose a psychologist
+city_main_menu_photo_button: 🌆 My city
+close_button: ☑️ Close
+connect_alice_button: 🔉 Connect Yandex.Alice
+consultation_button: 💬 Consultation
+continue_onboarding_first_button: ▶️ Continue
+continue_onboarding_second_button: ▶️ Continue
+course_menu_button: 📱 Learn something helpful
+create_new_emotion_button: ➕ Add emotion
+create_new_emotion_locked_button: 🔒 Add emotion
+create_new_source_button: ➕ Add the cause
+create_new_source_locked_button: 🔒 Add the cause
+custom_emotions_settings_button: 🥹 My emotions
+custom_main_menu_photo_button: 📸 My picture
+custom_questions_menu_button: ❓ My questions
+custom_questions_menu_locked_button: 🔒 My questions
+day_daytime_button: ☀️ Day
+dear_female_gender_button: 👩 dear
+dear_male_gender_button: 👨 dear
+decline_friend_invite_button: ❌ reject
+decline_sparks_offer_button: ❌ I’ll decide later
+delete_button: 🗑️ Delete
+delete_option_button: ️🗑 Remove the answer
+diary_subscription_menu_button: 🔁 Subscription
+disable_checkup_notifications_button: 🔕 Turn off notifications
+disable_main_menu_photo: 🙈 Without screensaver
+discard_button: 🗑️ Delete
+disconnect_button: 🔌 Disable
+discuss_with_therapist_button: 💬 Discuss the day with {}
+display_city_picture_button: ✅ show the city in the menu
+document_agreement_button: ✅ I accept the conditions
+download_button: 🗂 Download data
+dq_create_button: ➕️ Add the question
+dq_create_locked_button: 🔒 Add the question
+edit_button: ✏️ Edit
+edit_options_button: ✏️ Change answers
+edit_profile_picture_button: 🔄 Change
+edit_question_button: ✏️ Change the question
+emotions_list_button: ✍️ Start checkup
+enable_advices_button: ✅ Turn on the advices
+enable_checkup_notifications_button: 🔔 Enable notifications
+english_language_button: 🇬🇧 English
+evening_daytime_button: 🌇 Evening
+extra_settings_button: 👽 Other settings
+fast_checkup_disabled_button: 🔴 Quick checkup
+fast_checkup_disabled_locked_button: 🔒 Quick checkup
+fast_checkup_enabled_button: ✅ Quick checkup
+fast_question_type_button: Quickly
+feedback_button: 👨🏻‍🚀 Technical support
+female_onboarding_gender_button: 👩 Female
+finances_button: 🏦 Finance
+finish_ai_chat_button: ✅ Complete the chat
+finish_button: ✅ Complete
+finish_checkup_button: ✅ Complete the checkup
+finish_product_onboarding_button: 👍 Everything is clear
+forward_button: Next ➡️
+free_question_type_button: Community advice
+game_rules_button: ❓ Rules for the game
+generate_token_button: 🔑 Generate token
+german_language_button: 🇩🇪 German
+good_button: 😌
+goto_courses_catalogue_button: ➡️ Go to the catalog
+goto_therapist_from_noti_button: To the psychologist ➡️
+graph_main_menu_photo: 📊 My mood
+how_can_it_help_me_button: ❓ How helpful is it?
+ignore_button: 🗑️ Pass
+inbox_button: 🗃 My advices
+inbox_noti_button: 🗃 My advices ({})
+information_button: ℹ️ Information
+invite_friend_button: 🤟 Call a friend
+invite_friend_locked_button: 🔒 invite a friend
+language_settings_button: 🌐 Change UI language
+long_call_button: 60 minutes
+long_chat_button: 60 minutes
+main_menu_photo_button: 🌄 Screensaver
+male_onboarding_gender_button: 👨 Male
+medium_call_button: 30 minutes
+medium_chat_button: 30 minutes
+mood_source_preset_button: 💡 Causes of mood
+morning_daytime_button: 🌅 Morning
+move_source_button: ↔ Move
+move_source_locked_button: 🔒 move
+my_alice_button: 🔉 My Yandex.Station
+my_friends_menu_button: 💌 Invite a friend
+my_profile_button: 😊 My profile
+my_state_menu_button: 📆 Checkups
+negative_emotion_button: → Make positive
+negative_vibe_button: ⬅ Negative
+new_answer_noti_button: Read the answer ➡️
+new_comment_noti_button: Read the comment ➡️
+new_language_wanted_button: 🙏 I want another language
+new_question_noti_button: Open the question ➡️
+new_source_place_button: 🎯 Here
+new_source_place_locked_button: 🔒 here
+new_year_game_button: 🎅 New Year
+next_button: Next ▶️
+next_element_button: ➡️️
+next_onboarding_step_button: Next ➡️
+next_therapist_button: Next psychologist ➡️
+next_time_button: ❌ Next time
+night_daytime_button: 🌙 Night
+no_button: ❌ No
+no_display_city_picture_button: ❌ Remove photo of the city
+no_time_for_checkin_button: No time right now 😞
+notifications_settings_button: 🔔 Notifications
+ogrnip_info_button: 👨‍⚖️ Learn your OGRNIP
+ok_button: 👍 OK
+okay_button: 👌 Ok
+one_day_subscription_button: 24 hours
+one_week_subscription_button: Week
+pending_questions_menu_button: 🧐 Help
+perfect_button: 🤩
+positive_emotion_button: 👎 make negative
+positive_vibe_button: Positive ➡
+previous_button: ◀️ The previous one
+previous_element_button: ⬅️
+previous_therapist_button: ⬅️ Previous psychologist
+previous_weeks_button: 📜 History of checkups
+proceed_button: Further ➡️
+proceed_to_payment_button: Pay
+product_onboarding_button: ℹ️ About monday4me
+profile_picture_settings_button: 📸 Photo
+purchase_subscription_button: 💳 Pay
+purchase_subscription_trigger_button: 💰 Subscribe
+question_after_checkup_button: 🙋‍♂️ The Council of the Community
+quickstart_button: ▶️ Quick actions
+quickstart_therapist_button: 🚨 15 min therapy session
+rate_advice_button: ⭐️⭐️⭐️️ Evaluate advice
+rating_buttons: '{"highest": "⭐️⭐️⭐️ Very!", "medium": "⭐️⭐ Yes", "lowest": "⭐ No"}'
+ready_button: ✅ Ready
+record_circle_button: ❄️ Throw the snowball
+record_new_video_button: 🎥 Record a new snowball
+remove_button: 🗑 Delete
+remove_external_profile_url_button: 🗑 Delete the link
+remove_friend_menu_button: 👋️ Disable a friend
+rename_button: ✏️ Rename
+report_a_problem_button: 🚨 Report a problem
+report_advice_button: 🏴 Complain
+request_advice_button: 🙋 Ask
+rerecord_button: 🔂 Record again
+resend_question_button: 🔂 ask again
+russian_language_button: 🇷🇺 Russian
+save_to_diary_button: 💾 Save wisdom of the day
+see_previous_weeks_button: 📜 View history
+send_button: ✉️ Send
+send_capitalised_button: 🛫 SEND
+send_geo_button: 📍 Send geolocation
+send_phone_number_button: ☎️ Send the number
+settings_menu_button: ⚙️ Settings
+share_friends_contact_button: 👤 Choose contact
+short_call_button: 15 minutes
+short_chat_button: 15 minutes
+show_answer_button: 📩 Answer
+show_comment_button: 💬 Comment
+show_original_text_button: 🔍 Show the original
+show_translated_text_button: 🔍 Show the translation
+skip_button: Skip ➡️
+skip_checkup_button: 😴 I don't want to
+something_wrong_button: ⛔️ Here is a mistake
+sos_button: 🚨 15 min therapy session
+sparks_quests_button: 💥 My tasks
+start_checkup_button: ➡️ Start a checkup
+start_checkup_from_main_menu_button: ✍️ Pass the checkup
+start_subscription_button: 🔂 Subscribe
+start_therapy_onboarding_button: Start ➡️
+tax_id_info_button: 💸 Find the INN on Gosuslugi
+therapist_after_checkup_button: 🚨 psychologist for 15 minutes
+therapist_documents_settings_button: 📑 Documents
+therapist_personal_data_settings_button: 🔒 My personal data
+therapist_profile_conceal_button: 🙈 Hide the profile
+therapist_profile_preview_button: 👁 Preview
+therapist_profile_reveal_button: 🙉 Show the profile
+therapist_profile_settings_button: 🧳 My profile
+therapist_question_type_button: The psychologist
+therapists_menu_button: 👩🏻‍🦳 Рsychologists
+therapy_custom_profile_text_button: ✍️ Description
+therapy_external_profile_url_menu_button: 🌐 Link to profile
+therapy_finances_button: 💰 Finance
+therapy_menu_button: 🩺 Therapy
+therapy_settings_button: ⚙️ My cabinet
+to_dialogue_button: 💬 Discuss in chat
+transactions_button: 💸 History of transactions
+turn_off_button: 🟢 Turn on the question
+turn_on_button: 🔴 Turn off the question
+unlink_payment_method: 💳 Erase the payment method
+unlock_this_feature_button: 🔑 Open this function
+update_custom_therapist_profile_text_button: 🔄 Update the profile text
+usd_purchase_subscription_button: I don't have ₽-card
+user_data_button: 💾 Export data
+v1_remind_onboarding_first_button: 👀 See
+v1_remind_onboarding_second_button: 👀 See
+v1_remind_onboarding_third_button: 👀 See
+view_weekly_report_button: 🥳 Let's watch the report!
+view_weekly_report_locked_button: 🔒 Review of the week
+want_button: ♥ I want
+want_checkups_button: 😍 Wow, I will keep in mind
+want_sparks_button: 💥 Awesome, let's try!
+weekly_report_button: 📊 Reports
+weekly_report_locked_button: 🔒 Reports
+what_is_alisa_button: ℹ️ Who is Alice?
+whats_next_button: 😲 Ok, what to do after?
+wisdom_setting_disabled_button: 👁️ Show wisdoms
+wisdom_setting_enabled_button: 🙈 Hide wisdoms
+working_hours_button: 📆 Working schedule
+write_me_button: 🤝 Yes, write to me
+yes_button: ✅ Yes

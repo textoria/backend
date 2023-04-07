@@ -1,0 +1,7 @@
+checkin_reminder_noti_text: '<b>Today is {} </b>
+
+
+  Time of care for yourself. How was your day?'
+new_answer_noti_text: <b> Someone answered your question! </b>
+new_comment_noti_text: <b> Someone commented on your advice! </b>
+new_question_noti_text: <b> Someone needed your help! </b>

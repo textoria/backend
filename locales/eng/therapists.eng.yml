@@ -1,0 +1,122 @@
+active_support_plan_badge: Consultation to <b> {} </b>
+active_support_plan_menu_badge: <i> {} </i> <b> {} </b>
+active_support_plan_purchase_hint_text: "<b> You have an active consultation mode\
+  \ \"{}\", which expires {} </b>\n \n✅ The psychologist receives alerts about your\
+  \ checks\n {}\n<b> What do you want to do with advice? </b>"
+active_trial_support_badge: '
+
+
+  The dating mode will end <b> {} </b>'
+call_day_choice_text: '<b> Choose a day convenient for a call with a therapist: </b>'
+call_has_been_made_hint: '
+
+  ✅ The call with the psychologist has already taken place
+
+  '
+call_has_not_yet_been_made_hint: '
+
+  ☎️ A call with a psychologist has not yet been
+
+  '
+call_length_choice_text: '<b> Let''s plan 👩‍💻 video consultation </b>
+
+
+  Choose the duration of the session'
+call_time_choice_text: "<b> How convenient would it be for you? </b>\n \nChoose a\
+  \ suitable time for a call"
+chat_length_choice_text: '<b> Let''s plan 📱 Chat Consultation </b>
+
+
+  Choose the duration of the session'
+chose_therapist_flow_question_text: 'What''s bothering you?
+
+  Choose the reason, and we will show suitable psychologists'
+kids_blocked_from_therapy_text: <b> Section is available only to users over 18 years
+  old. </b>
+no_sos_therapist_available: Unfortunately, there are no online therapists now — the
+  first therapist will become available in {}
+purchase_confirmation_text: '<b> check the data and click the “Pay </b> button
+
+
+  <b> psychologist: </b> {}
+
+
+  <b> format: </b> {}
+
+
+  <b> Date and time: </b> {}
+
+
+  <b> Final cost: </b> {} ₽
+
+
+  By pressing <b> “Pay” </b> You agree with <a href=''{}''>Consultation conditions
+  </a>'
+purchase_detected_noti_text: '<b> Payment was successful 😎 </b>
+
+
+  You can write a psychologist now!'
+sos_therapist_card: "<b> A psychologist helps you:\n{} </b>\n \nBreathe deeply and\
+  \ calmly, now we will figure it out"
+sparks_availbale_for_use_text: "<b> on your balance there is </b> <code> \U0001F4A5\
+  \ {amount} </code> <b>! </b>\n \n<b> 1\U0001F4A5 = 1 rubles </b>, sparkles can be\
+  \ paid up to 50% of the amount\n \nThus, you can save <code> {sparks_to_use} ₽ </code>\n\
+  Would you like to use your \U0001F4A5?"
+subscription_offer_file_title: '{} — an offer for a consultation with a psychologist'
+therapist_card_form: <b> {name} </b>
+therapist_local_time_text: '<b> ⏰ The psychologist now: </b> <code> {} </code>'
+therapist_sub_discount_text: '
+
+
+  You have a discount <b> 5%</b>, since you use 💎 <b> an extended version of the bot
+  </b>'
+therapist_unsub_discount_text: '
+
+
+  Lifehac: design 💎 <b> an extended version of the bot </b> and get a constant discount
+  <b> 5%</b> at consultation'
+therapists_purchase_menu_text: '<b> How to start a consultation? 🤔 </b>
+
+
+  1. Choose the duration of communication
+
+
+  2. Pay the consultation
+
+
+  3. Come into the chat and write to a psychologist
+
+
+  4. Consultation starts from the first response of a psychologist'
+timeout_transition_text: Loading...
+today: Today
+tomorrow: Tomorrow
+upgrade_from_paid_1d_text: '
+
+
+  <b> {} at a discount </b>
+
+  +6 days of chat
+
+  Cost: <b> {} ₽ </b> <s> {} </ s>
+
+
+  <b> {} at a discount </b>
+
+  +6 days of chat and +1 video call (60 minutes)
+
+  Cost: <b> {} ₽ </b> <s> {} </ s>
+
+
+  🎁 Other types of consultations are cheaper, as you have active {} and the discount
+  <b> {} ₽ </b> is valid.
+
+
+  💥 up to 50% of the cost can be paid with sparks 💥'
+upgrade_from_paid_7db_text: "\n\n<b> Another {} </b>\nChat to <b> {} </b>\nCost: <b>\
+  \ {} ₽ </b>\n\n<b> {} at a discount </b>\nChat to <b> {} </b> +1 video call (60\
+  \ minutes)\nCost: <b> {} ₽ </b>\n \n\U0001F4A5 up to 50% of the cost can be paid\
+  \ with sparks \U0001F4A5"
+upgrade_from_paid_7de_text: "\n\n<b> Another {} </b>\nChat to <b> {} </b> +1 video\
+  \ call (60 minutes)\nCost: <b> {} ₽ </b>\n \n\U0001F4A5 up to 50% of the cost can\
+  \ be paid with sparks \U0001F4A5"
