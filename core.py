@@ -28,7 +28,7 @@ async def store_keys_to_database(data: Dict[str, Any]):
 
 
 async def load_keys() -> Dict[str, Any]:
-    keys = await db.execute(Text.select())
+    keys = await db.execute(Text.select().where(Text.deleted == False))
     if not keys:
         with open("keys.json", "r") as f:
             data = json.loads(f.read())
