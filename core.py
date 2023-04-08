@@ -3,7 +3,7 @@ from typing import Dict, Any
 from decouple import config
 from fastapi import HTTPException
 
-from db import Text, EditHistory, db
+from db import Text, db, ActionHistory
 
 import orjson as json
 from fastapi import FastAPI
@@ -47,7 +47,8 @@ async def update_key(key: str, new_value: Any) -> Dict[str, Any]:
     text_obj.text = new_value
     await db.update(text_obj)
 
-    await db.create(EditHistory, text=text_obj, text_before=text_before, text_after=new_value)
+    await db.create(ActionHistory, text=text_obj, action="update",
+                    data=json.dumps({"old_value": text_before, "new_value": new_value}))
 
     # Update KeyDB
     await KeyDBClient.async_hmset("cache", {key: new_value})
@@ -99,6 +100,10 @@ async def create_key(new_key: str, new_value: Any) -> Dict[str, Any]:
     # Add the new key to KeyDB
     await KeyDBClient.async_hmset("cache", {new_key: new_value})
 
+    # Store the creation action
+    await db.create(ActionHistory, action="create", text=text_obj,
+                    data=json.dumps({"key": new_key, "value": new_value}))
+
     return {new_key: new_value}
 
 
@@ -109,6 +114,32 @@ async def create_key_route(new_key: str, new_value: str):
         return created_key
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
+
+
+async def delete_key(key: str) -> Dict[str, str]:
+    text_obj = await db.get(Text, key=key)
+    if not text_obj:
+        raise KeyError(f"Key '{key}' not found.")
+
+    text_obj.deleted = True
+    await db.update(text_obj)
+
+    # Remove the key from KeyDB
+    await KeyDBClient.async_hdel("cache", key)
+
+    # Store the deletion action
+    await db.create(ActionHistory, action="delete", text=text_obj)
+
+    return {"detail": f"Key '{key}' deleted."}
+
+
+@app.delete("/delete_key")
+async def delete_key_route(key: str):
+    try:
+        deleted_key = await delete_key(key)
+        return deleted_key
+    except KeyError as e:
+        raise HTTPException(status_code=404, detail=str(e))
 
 
 if __name__ == "__main__":

@@ -50,12 +50,13 @@ class Text(BaseModel):
 
     text = TextField(null=True)
 
+    deleted = BooleanField(default=False)
 
-class EditHistory(BaseModel):
-    text = ForeignKeyField(Text, backref="edit_history")
 
-    text_before = TextField(null=True)
-    text_after = TextField(null=True)
+class ActionHistory(BaseModel):
+    text = ForeignKeyField(Text, backref="action_history")
+    action = TextField(null=False)
+    data = TextField(null=True)
 
     created_at = DateTimeTZField(default=now, null=False)
 
