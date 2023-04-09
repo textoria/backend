@@ -16,18 +16,17 @@ def now():
 
 def parse_db_url(db_url: str):
     parsed_url = urlparse(db_url)
-    db_config = {
+    db_conf = {
         "database": parsed_url.path[1:],
         "user": parsed_url.username,
         "host": parsed_url.hostname,
         "port": parsed_url.port,
         "password": parsed_url.password,
     }
-    return db_config
+    return db_conf
 
 
-db_url = config('DATABASE_URL')
-db_config = parse_db_url(db_url)
+db_config = parse_db_url(config('DATABASE_URL'))
 
 database = peewee_async.PostgresqlDatabase(
     database=db_config['database'],
@@ -46,25 +45,28 @@ class BaseModel(Model):
 class Text(BaseModel):
     key = TextField(unique=False, index=True, null=False)
 
-    language = CharField(max_length=20, default="ru", null=False)
-
-    text = TextField(null=True)
-
     deleted = BooleanField(default=False)
 
     class Meta:
-        table_name = "textoria-text"
+        table_name = "text"
 
 
-class ActionHistory(BaseModel):
-    text = ForeignKeyField(Text, backref="action_history")
-    action = TextField(null=False)
-    data = TextField(null=True)
+class Translation(BaseModel):
+    text = ForeignKeyField(Text, backref="translations")
+
+    language = TextField(null=False)
+
+    translation = TextField(null=False)
+
+    gender = TextField(default="neutral", null=False)
 
     created_at = DateTimeTZField(default=now, null=False)
 
     class Meta:
-        table_name = "textoria-action-history"
+        table_name = "translation"
+        indexes = (
+            (("text", "language", "gender"), True),
+        )
 
 
 database.evolve(

@@ -14,9 +14,9 @@ lang_mapping = {"rus": "_ru", "eng": "_en"}
 
 
 # Function to check if a string is a JSON object
-def is_json(value):
+def is_json(val):
     try:
-        json.loads(value)
+        json.loads(val)
     except ValueError:
         return False
     return True
@@ -47,5 +47,5 @@ for lang in lang_mapping:
                 data[new_key] = value
 
 # Save the parsed data as a JSON file
-with open("parsed_data.json", "w", encoding="utf-8") as json_file:
+with open("keys.json", "w", encoding="utf-8") as json_file:
     json.dump(data, json_file, ensure_ascii=False, indent=2)

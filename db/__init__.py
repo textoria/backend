@@ -1,4 +1,4 @@
-__all__ = ['db', 'Text', 'exists', 'now', 'ActionHistory']
+__all__ = ['db', 'Text', 'exists', 'now', 'Translation']
 
-from .models import now, db, Text, ActionHistory
+from .models import now, db, Text, Translation
 from .helpers import exists

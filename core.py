@@ -1,9 +1,9 @@
-import json
 from typing import Dict, Any
 from decouple import config
 from fastapi import HTTPException
 
-from db import Text, db, ActionHistory
+from db import Text, db, Translation
+from peewee import JOIN
 
 import orjson as json
 from fastapi import FastAPI
@@ -19,22 +19,53 @@ KeyDBClient.init_session(
 app = FastAPI()
 
 
+async def clear_db():
+    await db.execute(Translation.delete())
+    await db.execute(Text.delete())
+
+
 async def store_keys_to_database(data: Dict[str, Any]):
-    for key, value in data.items():
-        text_obj, _ = await db.get_or_create(Text, key=key, defaults={"text": value})
-        if text_obj.text != value:
-            text_obj.text = value
-            await db.update(text_obj)
+    for key in data.keys():
+        text_obj, _ = await db.get_or_create(Text, key=key)
+
+        for language, translation in data[key].items():
+            if type(translation) == str:
+                await db.get_or_create(Translation, text=text_obj, language=language,
+                                       translation=translation)
+            elif type(translation) == list:
+                await db.get_or_create(Translation, text=text_obj, language=language,
+                                       translation=json.dumps(translation))
+            elif type(translation) == dict:
+                if all(subkey in ['male', 'female'] for subkey in translation):
+                    for subkey, value in translation.items():
+                        await db.get_or_create(Translation, text=text_obj, language=language,
+                                               translation=json.dumps(value), gender=subkey)
+                else:
+                    await db.get_or_create(Translation, text=text_obj, language=language,
+                                           translation=json.dumps(translation))
 
 
-async def load_keys() -> Dict[str, Any]:
-    keys = await db.execute(Text.select().where(Text.deleted == False))
-    if not keys:
+async def load_keys():
+    # await clear_db()
+    query = (Text
+             .select(Text, Translation)
+             .join(Translation, JOIN.INNER, on=(Text.id == Translation.text))
+             .where(Text.deleted == False)
+             .order_by(Text.id))
+    results = await db.execute(query)
+
+    if not results:
         with open("keys.json", "r") as f:
             data = json.loads(f.read())
         await store_keys_to_database(data)
     else:
-        data = {key.key: key.text for key in keys}
+        data = {}
+        for key in results:
+            translations = await db.execute(key.translations)
+            for t in translations:
+                data.update({key.key: {t.language: t.translation}} if key.key not in data else
+                            {key.key: {**data[key.key],
+                                       t.language: t.translation}})
     return data
 
 
@@ -47,8 +78,8 @@ async def update_key(key: str, new_value: Any) -> Dict[str, Any]:
     text_obj.text = new_value
     await db.update(text_obj)
 
-    await db.create(ActionHistory, text=text_obj, action="update",
-                    data=json.dumps({"old_value": text_before, "new_value": new_value}))
+    # await db.create(ActionHistory, text=text_obj, action="update",
+    #                 data=json.dumps({"old_value": text_before, "new_value": new_value}))
 
     # Update KeyDB
     await KeyDBClient.async_hmset("cache", {key: new_value})
@@ -72,12 +103,12 @@ async def load_json_data(filename: str) -> str:
 
 
 async def store_keys_to_keydb(data: Dict[str, Any]):
-    await KeyDBClient.async_hmset("cache", data)
+    await KeyDBClient.async_set("cache", json.dumps(data))
 
 
-async def get_all_keys() -> Dict[str, Any]:
-    keys = await KeyDBClient.async_hgetall("cache")
-    return keys
+async def get_all_keys():
+    keys = await KeyDBClient.async_get("cache")
+    return json.loads(keys)
 
 
 @app.on_event("startup")
@@ -101,8 +132,8 @@ async def create_key(new_key: str, new_value: Any) -> Dict[str, Any]:
     await KeyDBClient.async_hmset("cache", {new_key: new_value})
 
     # Store the creation action
-    await db.create(ActionHistory, action="create", text=text_obj,
-                    data=json.dumps({"key": new_key, "value": new_value}))
+    # await db.create(ActionHistory, action="create", text=text_obj,
+    #                 data=json.dumps({"key": new_key, "value": new_value}))
 
     return {new_key: new_value}
 
@@ -128,7 +159,7 @@ async def delete_key(key: str) -> Dict[str, str]:
     await KeyDBClient.async_hdel("cache", key)
 
     # Store the deletion action
-    await db.create(ActionHistory, action="delete", text=text_obj)
+    # await db.create(ActionHistory, action="delete", text=text_obj)
 
     return {"detail": f"Key '{key}' deleted."}
 
