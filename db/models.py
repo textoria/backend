@@ -52,6 +52,9 @@ class Text(BaseModel):
 
     deleted = BooleanField(default=False)
 
+    class Meta:
+        table_name = "textoria-text"
+
 
 class ActionHistory(BaseModel):
     text = ForeignKeyField(Text, backref="action_history")
@@ -59,6 +62,9 @@ class ActionHistory(BaseModel):
     data = TextField(null=True)
 
     created_at = DateTimeTZField(default=now, null=False)
+
+    class Meta:
+        table_name = "textoria-action-history"
 
 
 database.evolve(
