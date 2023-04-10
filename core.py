@@ -64,6 +64,8 @@ async def load_keys():
             for t in translations:
                 text = t.translation
                 if (text.startswith('[') and text.endswith(']')) or (text.startswith('{') and text.endswith('}')):
+                    print(key)
+                    print(text)
                     text = json.loads(text)
                 translation = {key.key: {t.language: text}} if key.key not in data else\
                     {key.key: {**data[key.key], t.language: text}}
@@ -141,6 +143,8 @@ async def create_key(new_key: str, translations: Dict[str, Any]) -> Dict[str, An
     if not created:
         raise ValueError(f"Key '{new_key}' already exists.")
     for language, value in translations.items():
+        if type(value) == list or type(value) == dict:
+            value = json.dumps(value)
         await db.create(Translation, text=text_obj, language=language, translation=value)
 
     # Add the new key to KeyDB
