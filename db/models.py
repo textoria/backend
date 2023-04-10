@@ -45,8 +45,6 @@ class BaseModel(Model):
 class Text(BaseModel):
     key = TextField(unique=False, index=True, null=False)
 
-    deleted = BooleanField(default=False)
-
     class Meta:
         table_name = "text"
 
@@ -58,14 +56,12 @@ class Translation(BaseModel):
 
     translation = TextField(null=False)
 
-    gender = TextField(default="neutral", null=False)
-
     created_at = DateTimeTZField(default=now, null=False)
 
     class Meta:
         table_name = "translation"
         indexes = (
-            (("text", "language", "gender"), True),
+            (("text", "language"), True),
         )
 
 

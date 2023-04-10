@@ -5,7 +5,7 @@ from fastapi import HTTPException
 from db import Text, db, Translation
 from peewee import JOIN
 
-import orjson as json
+import ujson as json
 from fastapi import FastAPI
 from aiokeydb import KeyDBClient
 
@@ -32,25 +32,24 @@ async def store_keys_to_database(data: Dict[str, Any]):
             if type(translation) == str:
                 await db.get_or_create(Translation, text=text_obj, language=language,
                                        translation=translation)
-            elif type(translation) == list:
+            elif type(translation) == list or type(translation) == dict:
                 await db.get_or_create(Translation, text=text_obj, language=language,
                                        translation=json.dumps(translation))
-            elif type(translation) == dict:
-                if all(subkey in ['male', 'female'] for subkey in translation):
-                    for subkey, value in translation.items():
-                        await db.get_or_create(Translation, text=text_obj, language=language,
-                                               translation=json.dumps(value), gender=subkey)
-                else:
-                    await db.get_or_create(Translation, text=text_obj, language=language,
-                                           translation=json.dumps(translation))
+            # elif type(translation) == dict:
+            #     if all(subkey in ['male', 'female'] for subkey in translation):
+            #         for subkey, value in translation.items():
+            #             await db.get_or_create(Translation, text=text_obj, language=language,
+            #                                    translation=json.dumps(value), gender=subkey)
+            #     else:
+            #         await db.get_or_create(Translation, text=text_obj, language=language,
+            #                                translation=json.dumps(translation))
 
 
 async def load_keys():
-    await clear_db()
+    # await clear_db()
     query = (Text
              .select(Text, Translation)
              .join(Translation, JOIN.INNER, on=(Text.id == Translation.text))
-             .where(Text.deleted == False)
              .order_by(Text.id))
     results = await db.execute(query)
 
@@ -69,12 +68,13 @@ async def load_keys():
     return data
 
 
-async def update_key(key: str, new_value: Union[str, None], language: str) -> Dict[str, Any]:
+async def update_key(key: str, new_value: str, language: str) -> Dict[str, Any]:
     text_obj = await db.get(Text, key=key)
     if not text_obj:
         raise KeyError(f"Key '{key}' not found.")
 
-    translation_obj = await db.get(Translation, text=text_obj, language=language)
+    translation_obj, _ = await db.get_or_create(Translation, text=text_obj, language=language)
+
     translation_obj.translation = new_value
     await db.update(translation_obj)
 
@@ -84,6 +84,11 @@ async def update_key(key: str, new_value: Union[str, None], language: str) -> Di
     # Update KeyDB
     cache = await KeyDBClient.async_get("cache")
     cache = json.loads(cache)
+
+    if (new_value.startswith('[') and new_value.endswith(']')) or \
+            (new_value.startswith('{') and new_value.endswith('}')):
+        new_value = json.loads(new_value)
+
     cache[key].update({language: new_value})
 
     await KeyDBClient.async_set("cache", json.dumps(cache))
@@ -127,31 +132,32 @@ async def get_all_keys_route():
     return await get_all_keys()
 
 
-async def create_key(new_key: str, values: Dict[str, Any]) -> Dict[str, Any]:
+async def create_key(new_key: str, translations: Dict[str, Any]) -> Dict[str, Any]:
     text_obj, created = await db.get_or_create(Text, key=new_key)
 
     if not created:
         raise ValueError(f"Key '{new_key}' already exists.")
-    for language, value in values.items():
+    for language, value in translations.items():
         await db.create(Translation, text=text_obj, language=language, translation=value)
 
-    values = values.get('values')
     # Add the new key to KeyDB
     cache = await KeyDBClient.async_get("cache")
     cache = json.loads(cache)
-    cache.update({new_key: values})
+    cache.update({new_key: translations})
+    cache = json.dumps(cache)
+    await KeyDBClient.async_set("cache", cache)
 
     # Store the creation action
     # await db.create(ActionHistory, action="create", text=text_obj,
     #                 data=json.dumps({"key": new_key, "value": new_value}))
 
-    return {new_key: values}
+    return {new_key: translations}
 
 
 @app.post("/create_key")
-async def create_key_route(new_key: str, values: Dict[str, Any]):
+async def create_key_route(new_key: str, translations: Dict[str, Any]):
     try:
-        created_key = await create_key(new_key, values)
+        created_key = await create_key(new_key, translations)
         return created_key
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
@@ -162,11 +168,15 @@ async def delete_key(key: str) -> Dict[str, str]:
     if not text_obj:
         raise KeyError(f"Key '{key}' not found.")
 
-    text_obj.deleted = True
-    await db.update(text_obj)
+    await db.delete(text_obj, recursive=True)
+
+    cache = await KeyDBClient.async_get("cache")
+    cache = json.loads(cache)
+    cache.pop(key)
+    cache = json.dumps(cache)
+    await KeyDBClient.async_set("cache", cache)
 
     # Remove the key from KeyDB
-    await KeyDBClient.async_hdel("cache", key)
 
     # Store the deletion action
     # await db.create(ActionHistory, action="delete", text=text_obj)
