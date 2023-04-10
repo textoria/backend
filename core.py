@@ -1,4 +1,4 @@
-from typing import Dict, Any
+from typing import Dict, Any, Union
 from decouple import config
 from fastapi import HTTPException
 
@@ -69,28 +69,32 @@ async def load_keys():
     return data
 
 
-async def update_key(key: str, new_value: Any) -> Dict[str, Any]:
+async def update_key(key: str, new_value: Union[str, None], language: str) -> Dict[str, Any]:
     text_obj = await db.get(Text, key=key)
     if not text_obj:
         raise KeyError(f"Key '{key}' not found.")
 
-    text_before = text_obj.text
-    text_obj.text = new_value
-    await db.update(text_obj)
+    translation_obj = await db.get(Translation, text=text_obj, language=language)
+    translation_obj.translation = new_value
+    await db.update(translation_obj)
 
     # await db.create(ActionHistory, text=text_obj, action="update",
     #                 data=json.dumps({"old_value": text_before, "new_value": new_value}))
 
     # Update KeyDB
-    await KeyDBClient.async_hmset("cache", {key: new_value})
+    cache = await KeyDBClient.async_get("cache")
+    cache = json.loads(cache)
+    cache[key].update({language: new_value})
+
+    await KeyDBClient.async_set("cache", json.dumps(cache))
 
     return {key: new_value}
 
 
 @app.put("/update_key")
-async def update_key_route(key: str, new_value: str):
+async def update_key_route(key: str, new_value: str, language: str):
     try:
-        updated_key = await update_key(key, new_value)
+        updated_key = await update_key(key, new_value, language)
         return updated_key
     except KeyError as e:
         raise HTTPException(status_code=404, detail=str(e))
@@ -123,25 +127,32 @@ async def get_all_keys_route():
     return await get_all_keys()
 
 
-async def create_key(new_key: str, new_value: Any) -> Dict[str, Any]:
-    text_obj, created = await db.get_or_create(Text, key=new_key, defaults={"text": new_value})
+async def create_key(new_key: str, values: Dict[str, Any]) -> Dict[str, Any]:
+    text_obj, created = await db.get_or_create(Text, key=new_key)
+
     if not created:
         raise ValueError(f"Key '{new_key}' already exists.")
+    for language, value in values.items():
+        await db.create(Translation, text=text_obj, language=language, translation=value)
 
+    if type(values) == str:
+        values = json.loads(values)
     # Add the new key to KeyDB
-    await KeyDBClient.async_hmset("cache", {new_key: new_value})
+    cache = await KeyDBClient.async_get("cache")
+    cache = json.loads(cache)
+    cache.update({new_key: values})
 
     # Store the creation action
     # await db.create(ActionHistory, action="create", text=text_obj,
     #                 data=json.dumps({"key": new_key, "value": new_value}))
 
-    return {new_key: new_value}
+    return {new_key: values}
 
 
 @app.post("/create_key")
-async def create_key_route(new_key: str, new_value: str):
+async def create_key_route(new_key: str, values: Dict[str, Any]):
     try:
-        created_key = await create_key(new_key, new_value)
+        created_key = await create_key(new_key, values)
         return created_key
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
