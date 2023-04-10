@@ -62,9 +62,12 @@ async def load_keys():
         for key in results:
             translations = await db.execute(key.translations)
             for t in translations:
-                data.update({key.key: {t.language: t.translation}} if key.key not in data else
-                            {key.key: {**data[key.key],
-                                       t.language: t.translation}})
+                text = t.translation
+                if (text.startswith('[') and text.endswith(']')) or (text.startswith('{') and text.endswith('}')):
+                    text = json.loads(text)
+                translation = {key.key: {t.language: text}} if key.key not in data else\
+                    {key.key: {**data[key.key], t.language: text}}
+                data.update(translation)
     return data
 
 
