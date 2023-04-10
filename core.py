@@ -46,7 +46,7 @@ async def store_keys_to_database(data: Dict[str, Any]):
 
 
 async def load_keys():
-    # await clear_db()
+    await clear_db()
     query = (Text
              .select(Text, Translation)
              .join(Translation, JOIN.INNER, on=(Text.id == Translation.text))
@@ -135,8 +135,7 @@ async def create_key(new_key: str, values: Dict[str, Any]) -> Dict[str, Any]:
     for language, value in values.items():
         await db.create(Translation, text=text_obj, language=language, translation=value)
 
-    if type(values) == str:
-        values = json.loads(values)
+    values = values.get('values')
     # Add the new key to KeyDB
     cache = await KeyDBClient.async_get("cache")
     cache = json.loads(cache)
