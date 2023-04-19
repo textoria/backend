@@ -3,7 +3,7 @@ version: '3.8'
 services:
   keydb:
     image: eqalpha/keydb
-    container_name: textoria-keydb
+    container_name: textoria-keydbbhng
     ports:
       - "6379:6379"
     command: keydb-server /etc/keydb/keydb.conf --server-threads 4 --requirepass password
@@ -21,7 +21,7 @@ services:
       - postgres_data:/var/lib/postgresql/data
 
   back:
-    container_name: textoria-back
+    container_name: backend
     environment:
         - KEYDB_URI=$KEYDB_URI
         - DATABASE_URL=postgres://postgres:password@postgres:5432/textoria
@@ -33,10 +33,10 @@ services:
       - keydb
 
   front:
-    container_name: textoria-front
+    container_name: frontend
     build: https://github.com/textoria/frontend.git
     environment:
-      - BACKEND_URL=http://back:8000
+      - BACKEND_URL=http://backend:8000
     ports:
       - '3000:3000'
     depends_on:
